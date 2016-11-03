@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Course>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>2388</Number>
+	<Name>Computer Science II HON</Name>
+	<Description>
+		A second programming course includes problem solving by structured design; 
+		provides an introduction to elementary data structures, 
+		including linked lists, stacks, queues, trees and graphs, 
+		and advanced programming techniques, including recursion, sorting and searching.
+		Equivalent course: CMPE 2388
+	</Description>
+	<Credit-hours>3.000</Credit-hours>
+	<Lecture-hours>3.000</Lecture-hours>
+	<Lab-hours>None</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite>CSCI 1378</Prerequisite>
+	<Prerequisite>CSCI 1370</Prerequisite>
+	<Prerequisite>CMPE 1370</Prerequisite>
+	<Prerequisite>Consent of instructor</Prerequisite>
+	<Co-requisite>None</Co-requisite>
+	<Course-attributes>
+		Degree Elective, CS Instruction Fee - LU 
+	</Course-attributes>
+</Course>

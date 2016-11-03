@@ -1,0 +1,19 @@
+<Course>
+<Department>Computer Science</Department>
+<Prefix>CSCI</Prefix>
+<Number>4333</Number>
+<Name>Database Design & Implement</Name>
+<Description>Study of logical (hierarchical, network, relational) and physical (sequential, indexed, relative) organization of databases. Database management systems and their features, querying databases, distributed databases, and data compression. 
+</Description>
+<Credit-hours>3.000</Credit-hours>
+<Lecture-hours>3.000</Lecture-hours>
+<Lab-hours>0.000</Lab-hours>
+<Level>Undergraduate</Level>
+<Schedule-type>Lecture</Schedule-type>
+<Prerequisite>CSCI-3334 </Prerequisite>
+<Prerequisite>CMPE 3333</Prerequisite>
+<Co-requisite>None</Co-requisite>
+<Course-attributes>
+Degree Elective, CS Instruction Fee - HU 
+</Course-attributes>
+</Course>
