@@ -1,5 +1,6 @@
 # SW_FALL_2016_TEAM_2
 
+MQ's Software Engineering XML team. 
 
 # TEAM
 - Francisco
