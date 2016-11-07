@@ -17,5 +17,8 @@
     <Legacy-number>COSC 1336</Legacy-number>
     <Cross-listed>None</Cross-listed>
     <Restrictions>None</Restrictions>
-    <Course-attributes>Core Int/Exp Lrng-090, Degree Elective, CS Instruction Fee - LU</Course-attributes>
+    <Course-attributes>
+      <item>Core Int/Exp Lrng-090</item>
+      <item>Degree Elective</item>
+      <item>CS Instruction Fee - LU</item>
 </Course>

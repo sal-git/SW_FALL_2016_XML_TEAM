@@ -4,27 +4,32 @@
 <Number>2388</Number>
 <Name>Computer Science II HON</Name>
 <Description>
-A second programming course includes problem solving by structured design. Provides an introduction to elementary data structures, including linked lists, stacks, queues, trees and graphs, and advanced programming techniques, including recursion, sorting and searching. 
+A second programming course includes problem solving by structured design. Provides an introduction to elementary data structures, including linked lists, stacks, queues, trees and graphs, and advanced programming techniques, including recursion, sorting and searching.
 </Description>
 <Credit-hours>3.000</Credit-hours>
 <Lecture-hours>3.000</Lecture-hours>
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D
+<Prerequisite>
+  <item>CSCI 1378</item>
+  <item>CSCI 1370</item>
+  <item>CMPE 1370</item>
+  <item>Consent of instructor</item>
+  <item>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D
 </Prerequisite>
 <Co-requisite>None</Co-requisite>
 <Course-attributes>
-Degree Elective, CS Instruction Fee -LU
+  <item>Degree Elective</item>
+  <item>CS Instruction Fee -LU</item>
 </Course-attributes>
 <Legacy-number>None</Legacy-number>
 <Cross-listed>CMPE 2388</Cross-listed>
 <Restrictions>
-May not be enrolled in one of the following Programs:      
-dnu MED in Educational Admin 
-MPA in Public Administration 
-Bus. Admin Accelerated online 
-May not be enrolled in one of the following Levels:      
-English Language Institute
+  <item>May not be enrolled in dnu MED in Educational Admin</item>
+  <item>May not be enrolled in MPA in Public Administration </item>
+  <item>May not be enrolled in Bus. Admin Accelerated online</item>
+  <item>May not be enrolled in English Language Institute</item>
+  <item>May not be enrolled in</item>
 </Restrictions>
 </Course>

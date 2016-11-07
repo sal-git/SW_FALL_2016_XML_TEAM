@@ -153,11 +153,8 @@ class MyBrowser extends Region {
 
     public MyBrowser() throws MalformedURLException {
 
-        //URL urlHello = getClass().getResource("Team_2/build/output.htm");
-        //URL urlHello = this.getClass().getResource("/output.htm");
         String path = "C:/Users/Germex/Documents/NetBeansProjects/Team_2/output/output.html";
         URL url = new URL("file:///" + path);
-        //System.out.println(urlHello.getPath());
         webEngine.load(url.toExternalForm());
 
         getChildren().add(webView);
