@@ -34,7 +34,6 @@ public class StephenProtoypeDriver extends Application {
     public int count = 0;
     Button back = new Button("BACK");
     Button forward = new Button("FORWARD");
-    Button generate = new Button("GENERATE FILES");
     BorderPane mainPane = new BorderPane();
     File[] listOfFiles;
     HBox controls = new HBox(10);
@@ -54,6 +53,8 @@ public class StephenProtoypeDriver extends Application {
         configureDisplay();
 
         configureListeners();
+
+        generateFiles();
 
         scene = new Scene(mainPane, 800, 650);
 
@@ -78,7 +79,8 @@ public class StephenProtoypeDriver extends Application {
     private void configureListeners() {
 
         /**
-         * Forward click. Count increases to go to next XML file and merges said file. 
+         * Forward click. Count increases to go to next XML file and merges said
+         * file.
          */
         forward.setOnAction((ActionEvent event) -> {
             count++;
@@ -92,26 +94,8 @@ public class StephenProtoypeDriver extends Application {
         });
 
         /**
-         * Generate files. Get all files from said directory and ad them to array. 
-         */
-        generate.setOnAction((ActionEvent event) -> {
-            File folder = new File("C:/Users/Germex/Documents/NetBeansProjects/Team_2/XML/");
-            listOfFiles = folder.listFiles();
-
-            for (File listOfFile : listOfFiles) {
-                if (listOfFile.isFile()) {
-                    System.out.println("File " + listOfFile.getName());
-                }
-            }
-            try {
-                configureDisplay();
-            } catch (MalformedURLException ex) {
-                Logger.getLogger(StephenProtoypeDriver.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        });
-
-        /**
-         * Back button click, Count decreases in array to go to said XML file and converts it again to output.htm
+         * Back button click, Count decreases in array to go to said XML file
+         * and converts it again to output.htm
          */
         back.setOnAction((ActionEvent event) -> {
             count--;
@@ -126,21 +110,38 @@ public class StephenProtoypeDriver extends Application {
     }
 
     /**
-     * Configure display. Main pane and buttons. 
+     * Configure display. Main pane and buttons.
      */
     private void configureDisplay() throws MalformedURLException {
-        controls.getChildren().removeAll(back, generate, forward);
+        controls.getChildren().removeAll(back, forward);
         myBrowser = new MyBrowser();
         mainPane.setCenter(myBrowser);
         controls.setAlignment(Pos.CENTER);
-        controls.getChildren().addAll(back, generate, forward);
+        controls.getChildren().addAll(back, forward);
         mainPane.setBottom(controls);
+    }
+
+    private void generateFiles() {
+        File folder = new File("C:/Users/Germex/Documents/NetBeansProjects/Team_2/XML/");
+        listOfFiles = folder.listFiles();
+
+        for (File listOfFile : listOfFiles) {
+            if (listOfFile.isFile()) {
+                System.out.println("File " + listOfFile.getName());
+            }
+        }
+        try {
+            configureDisplay();
+        } catch (MalformedURLException ex) {
+            Logger.getLogger(StephenProtoypeDriver.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
 }
 
 /**
- * Create own browser to display .html document. 
+ * Create own browser to display .html document.
+ *
  * @author Germex
  */
 class MyBrowser extends Region {
@@ -152,11 +153,8 @@ class MyBrowser extends Region {
 
     public MyBrowser() throws MalformedURLException {
 
-        //URL urlHello = getClass().getResource("Team_2/build/output.htm");
-        //URL urlHello = this.getClass().getResource("/output.htm");
         String path = "C:/Users/Germex/Documents/NetBeansProjects/Team_2/output/output.html";
-        URL url = new URL("file:///" + path); 
-        //System.out.println(urlHello.getPath());
+        URL url = new URL("file:///" + path);
         webEngine.load(url.toExternalForm());
 
         getChildren().add(webView);
