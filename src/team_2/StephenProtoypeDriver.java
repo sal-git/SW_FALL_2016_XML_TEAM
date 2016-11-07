@@ -155,6 +155,10 @@ class MyBrowser extends Region {
 
         String path = "C:/Users/Germex/Documents/NetBeansProjects/Team_2/output/output.html";
         URL url = new URL("file:///" + path);
+<<<<<<< HEAD
+=======
+        //System.out.println(urlHello.getPath());
+>>>>>>> origin/master
         webEngine.load(url.toExternalForm());
 
         getChildren().add(webView);
