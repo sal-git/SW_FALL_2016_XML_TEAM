@@ -1,24 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4360</Number>
-    <Name>Comp Graphics & Interactive Sy</Name>
-    <Description>Presents fundamental concepts of computer graphics. Topics include display hardware, transformations, geometric modeling, shading two- and three-dimensional display algorithms and graphics software systems.</Description>
+    <Name>Comp Graphics and Interactive Sy</Name>
+    <Description>
+		Presents fundamental concepts of computer graphics. Topics include display hardware, transformations, geometric modeling, shading two- and three-dimensional display algorithms and graphics software systems.
+	</Description>
     <Credit-hours>3.000</Credit-hours>
     <Lecture-hours>3.000</Lecture-hours>
     <Lab-hours>0.000</Lab-hours>
     <Level>Undergraduate</Level>
     <Schedule-type>Lecture</Schedule-type>
-    <Prerequisite>CSCI-3333</Prerequisite>
-    <Prerequisite>CMPE-3333</Prerequisite>
-    <Prerequisite>Consent of instructor.</Prerequisite>
+    <Prerequisite>
+		<item>CSCI-3333</item>
+		<item>CMPE-3333</item>
+		<item>Consent of instructor</item>
+	</Prerequisite>
     <Co-requisite>None</Co-requisite>
     <Legacy-number>None</Legacy-number>
     <Cross-listed>None</Cross-listed>
-    <Restrictons>May not be enrolled in dnu-MED in Educational Admin</Restrictons>
-    <Restrictons>May not be enrolled in MPA in Public Administration</Restrictons>
-    <Restrictons>May not be enrolled in Bus. Admin -Accelerated online</Restrictons>
-    <Restrictons>May not be enrolled in English Language Institute</Restrictons>
+    <Restrictions>
+		<item>May not be enrolled in dnu-MED in Educational Admin</item>
+		<item>May not be enrolled in MPA in Public Administration</item>
+		<item>May not be enrolled in Bus. Admin -Accelerated online</item>
+		<item>May not be enrolled in English Language Institute</item>
+	</Restrictions>
     <Course-attributes>Degree Elective, CS Instruction Fee-HU</Course-attributes>
 </Course>
