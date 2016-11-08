@@ -1,23 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Department>Computer Science</Department>
-<Prefix>CSCI</Prefix>
-<Number>4383</Number>
-<Name>Bioinformatics Imaging</Name>
-<Description>
-	This course provides an introduction to the physical and computational principles of medical imaging systems. Topics covered include fundamentals of x-ray radiography, x-ray computed tomography, ultrasound imaging and magnetic resonance imaging. Current techniques for visualization, segmentation, and analysis of medical image data will be discussed.
-</Description>
-<Credit-hours>3.000</Credit-hours>
-<Lecture-hours>3.000</Lecture-hours>
-<Lab-hours>0.000</Lab-hours>
-<Level>Undergraduate</Level>
-<Schedule-type>Lecture</Schedule-type>
-<Prerequisite>CSCI 3333</Prerequisite>
-<Prerequisite>CMPE 3333</Prerequisite>
-<Prerequisite>Consent of the instructor.</Prerequisite>
-<Legacy-number>COSC-4382</Legacy-number>
-<Cross-listed>None</Cross-listed>
-<Restrictions>None</Restrictions>
-<Co-requisite>None</Co-requisite>
-<Course-attributes>None</Course-attributes>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>4383</Number>
+	<Name>Bioinformatics Imaging</Name>
+	<Description>
+		This course provides an introduction to the physical and computational principles of medical imaging systems. Topics covered include fundamentals of x-ray radiography, x-ray computed tomography, ultrasound imaging and magnetic resonance imaging. Current techniques for visualization, segmentation, and analysis of medical image data will be discussed.
+	</Description>
+	<Credit-hours>3.000</Credit-hours>
+	<Lecture-hours>3.000</Lecture-hours>
+	<Lab-hours>0.000</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite>
+		<item>CSCI 3333</item>
+		<item>CMPE 3333</item>
+		<item>Consent of the instructor.</item>
+	</Prerequisite>
+	<Legacy-number>COSC-4382</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>
+		<item>None</item>
+	</Restrictions>
+	<Co-requisite>None</Co-requisite>
+	<Course-attributes>None</Course-attributes>
 </Course>
