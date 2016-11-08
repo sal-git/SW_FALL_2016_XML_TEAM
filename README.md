@@ -1,6 +1,6 @@
 # SW_FALL_2016_TEAM_2
 
-MQ's Software Engineering XML team. 
+MQ's Software Engineering XML team.
 
 # TEAM
 - Francisco
@@ -9,10 +9,17 @@ MQ's Software Engineering XML team.
 - Victor
 - Stephen
 
-# Objectives
+# Objectives (Tasks)
 
-- Convert XML 2 HTML
-- Convert HTML 2 PDF
-- Create XML files
-- Combine XML files
-- Combine PDF files
+- Convert XML 2 HTML (lily)
+- Convert HTML 2 PDF (francisco)
+- Create XML files (steve)
+- Combine XML files (leo)
+- Combine PDF files (victor)
+
+*Jobs may be switched or shared and new jobs may be added (...count on it)*
+
+
+# UML Class designs
+
+//TODO Add UML diagrams 
