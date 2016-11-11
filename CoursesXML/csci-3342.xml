@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Category>Technical_Electives</Category>
+  <Divide>Technical_Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3342</Number>
