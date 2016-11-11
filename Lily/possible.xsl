@@ -70,8 +70,13 @@
 			</xsl:for-each>
 		<br/>
 		<br/>
-		
-		<xsl:value-of select="Course/Course-attributes"/>
+		<xsl:value-of select="Course/Attributes"/>
+		<br/>
+			<xsl:for-each select="Course/Course-attributes/item">
+			<li>
+			<xsl:value-of select="."/>
+			</li>
+			</xsl:for-each>
 		<br/>
 	</body>
 	</html>
