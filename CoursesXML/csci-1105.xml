@@ -23,5 +23,6 @@
 	<Restrictions_Levels></Restrictions_Levels>
 	<Restrictions2> 
 	</Restrictions2>
-	<Attributes><item>None</item></Attributes>
+	<Attributes>None</Attributes>
+	<Course-attributes><item>None</item></Course-attributes>
 </Course>
