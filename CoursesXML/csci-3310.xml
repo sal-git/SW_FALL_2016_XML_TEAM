@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Category>Mathematics_and_Engineering</Category>
+<Divide>Mathematics_and_Engineering</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>3310</Number>
@@ -18,11 +19,20 @@ An introduction to some of the more important concepts, techniques, and structur
 <item>CSCI/CMPE 1370</item>
 <item>CSCI/CMPE 1378</item>
 </Prerequisite>
-<Co-requisite>None</Co-requisite>
+  <Co-requisite><item>None</item></Co-requisite>
 <Course-attributes>
 None
 </Course-attributes>
 <Legacy-number>COSC 2310</Legacy-number>
-<Cross-listed>None</Cross-listed>
-<Restrictions>None</Restrictions>
+<Cross-listed>N/A</Cross-listed>
+<Restrictions_Programs>>May not be enrolled in one of the following Programs:</Restrictions_Programs>
+	<Restrictions1>
+  <item>dnu-MED in Educational Admin</item>
+  <item>MPA in Public Administration</item>
+  <item>Bus. Admin -Accelerated online.</item> 
+	</Restrictions1>
+	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
+	<Restrictions2> 
+  <item>English Language Institute</item>
+	</Restrictions2>
 </Course>
