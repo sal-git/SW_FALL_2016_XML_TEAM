@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Category>Computer_Science_Core</Category>
+  <Divide>Computer_Science_Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3340</Number>
@@ -25,13 +25,19 @@
   </Co-requisite>
   <Legacy-number>COSC-4346</Legacy-number>
   <Cross-listed>CMPE-3340</Cross-listed>
-  <Restrictions>
-    <item>May not be enrolled in dnu-MED in Educational Admin </item>
-    <item>May not be enrolled in MPA in Public Administration </item>
-    <item>May not be enrolled in Bus. Admin -Accelerated online </item>
-    <item>May not be enrolled in English Language Institute </item>
-  </Restrictions>
+  <Restrictions_Programs>May not be enrolled in: </Restrictions_Programs>
+  <Restrictions1>
+	  <item>dnu-MED in Educational Admin</item>
+	  <item>MPA in Public Administration</item>
+	  <item>Bus. Admin -Accelerated online</item>
+	  <item>English Language Institute</item>
+	</Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes>Course Attributes:</Attributes>
   <Course-attributes>
-    Degree Elective, Course fee - Computer Science, CS Instruction Fee – LU
+    <item>Degree Elective</item>
+    <item>Course fee - Computer Science</item>
+    <item>CS Instruction Fee – LU</item>
   </Course-attributes>
 </Course>
