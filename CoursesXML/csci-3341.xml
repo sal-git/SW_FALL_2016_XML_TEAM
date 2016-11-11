@@ -28,16 +28,14 @@
   <Cross-listed>
     <item>CMPE-3341</item>
   </Cross-listed>
-  <Restrictions_Programs>May not be enrolled in: </Restrictions_Programs>
   <Restrictions1>
 	  <item>dnu-MED in Educational Admin</item>
 	  <item>MPA in Public Administration</item>
 	  <item>Bus. Admin -Accelerated online</item>
-	  <item>English Language Institute</item>
 	</Restrictions1>
-  <Restrictions_Levels></Restrictions_Levels>
-  <Restrictions2></Restrictions2>
-  <Attributes>Course Attributes:</Attributes>
+  <Restrictions2>
+		  <item>English Language Institute</item>
+	</Restrictions2>
   <Course-attributes>
 	<item>Degree Elective</item>
 	<item>CS Instruction Fee - HU</item>
