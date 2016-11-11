@@ -21,11 +21,13 @@ A second programming course includes problem solving by structured design. Provi
   <item>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D</item>
 </Prerequisite>
 <Co-requisite>None</Co-requisite>
-<Course-attributes>Degree Elective, >CS Instruction Fee -LU
+	<Attributes>Course Attribtues: </Attributes>
+	<Course-attributes><item>Degree Elective</item>
+		<item>CS Instruction Fee -LU</item>
 </Course-attributes>
 <Legacy-number>N/A</Legacy-number>
 <Cross-listed>CMPE 2388</Cross-listed>
-<Restrictions_Programs>>May not be enrolled in one of the following Programs:</Restrictions_Programs>
+<Restrictions_Programs>May not be enrolled in one of the following Programs:</Restrictions_Programs>
 	<Restrictions1>
   <item>dnu-MED in Educational Admin</item>
   <item>MPA in Public Administration</item>
