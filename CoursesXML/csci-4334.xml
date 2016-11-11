@@ -16,7 +16,9 @@ This course provides a study of the basic concepts of operating systems: process
   <item>CSCI-3333</item>
   <item>CMPE-3333</item>
 </Prerequisite>
-<Co-requisite><item>CMPE 4334<item></Co-requisite>
+<Co-requisite><item>CMPE 4334</item></Co-requisite>
+  <Restrictions1></Restrictions1>
+  <Restrictions2></Restrictions2>
 <Course-attributes>
 <item>Degree Elective</item>
 <item> CS Instruction Fee - HU </item>
