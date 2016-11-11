@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+<Divide>Computer_Science_Core</Divide>
+<Department>Computer Science</Department>
+<Prefix>CSCI</Prefix>
+<Number>4325</Number>
+<Name>Automata, Formal Lang, and Comp</Name>
+<Description>
+The course presents formal computation models. Topics include finite state machine,
+pushdown state machine, Turing machine, halting problem, definition and properties of
+formal grammars and their languages as well as theory of computability and complexity
+including the complexity of optimization and approximation problems.
+Prerequisites: CSCI 3333 or CMPE 3333 and CSCI 3336.
+3.000 Credit hours
+3.000 Lecture hours
+</Description>
+<Credit-hours>3.00</Credit-hours>
+<Lecture-hours>3.00</Lecture-hours>
+<Lab-hours>0.00</Lab-hours>
+<Level>Undergraduate</Level>
+<Schedule-type>Lecture</Schedule-type>
+<Cross-listed>NA</Cross-listed>
+<Legacy>NA</Legacy>
+<Restrictions>May not be enrolled in one of the following Programs: </Restrictions>
+<Restrictions1>
+<item1>dnu-MED in Educational Admin</item1>
+<item1>MPA in Public Administration</item1>
+<item1>Bus. Admin -Accelerated online</item1>
+</Restrictions1>
+<Restrictions>May not be enrolled in one of the following Levels:
+</Restrictions>
+<Restrictions2> 
+<item2>English Language Institute</item2>
+</Restrictions2>
+<Prerequisite>CSCI-3333 or CMPE-3333 or CSCI-3336</Prerequisite>
+<Co-requisite>None</Co-requisite>
+<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+</Course>
