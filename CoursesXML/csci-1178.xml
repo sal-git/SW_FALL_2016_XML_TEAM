@@ -23,6 +23,9 @@
 	<Restrictions_Levels></Restrictions_Levels>
 	<Restrictions> 
 	</Restrictions>
-	<Course-attributes>Computer Science, >CS Instruction Fee - LU
+	<Attributes>Course Attributes: </Attributes>
+	<Course-attributes>
+		<item>Computer Science</item>
+		<item>CS Instruction Fee - LU></item>
 	</Course-attributes>
 </Course>
