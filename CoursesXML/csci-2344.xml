@@ -20,17 +20,14 @@
   <Co-requisite><item>None</item></Co-requisite>
 <Legacy-number>N/A</Legacy-number>
 <Cross-listed>N/A</Cross-listed>
-<Restrictions_Programs>May not be enrolled in one of the following Programs:</Restrictions_Programs>
 	<Restrictions1>
   		<item>dnu-MED in Educational Admin</item>
   		<item>MPA in Public Administration</item>
   		<item>Bus. Admin -Accelerated online.</item> 
 	</Restrictions1>
-	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
 	<Restrictions2> 
   		<item>English Language Institute</item>
 	</Restrictions2>
-	<Attributes>Course Attribtues: </Attributes>
 	<Course-attributes>
 		<item>Degree Elective</item> 
 		<item>CS Instruction Fee - LU</item>
