@@ -30,7 +30,10 @@
 	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
 	<Restrictions2> 
   <item>English Language Institute</item>
-	</Restrictions2><Course-attributes>
-Degree Elective, CS Instruction Fee - LU
+	</Restrictions2>
+	<Attributes>Course Attributes:</Attributes>
+	<Course-attributes>
+		<item>Degree Elective</item> 
+		<item>CS Instruction Fee - LU</item>
 </Course-attributes>
 </Course>
