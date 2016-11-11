@@ -13,8 +13,8 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequisite>None</Prerequisite>
-	<Co-requisite>None</Co-requisite>
+	<Prerequisite><item>None</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
 	<Restrictions_Programs></Restrictions_Programs>
