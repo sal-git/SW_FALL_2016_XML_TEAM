@@ -23,7 +23,7 @@
 	<Co-requisite>
 		<item>None</item>
 	</Co-requisite>
-	<Legacy-number>None</Legacy-number>
+	<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
 	<Restrictions_Programs>May not be enrolled in one of the following Programs: </Restrictions_Programs>
 	<Restrictions1>
@@ -35,5 +35,10 @@
 	<Restrictions> 
 		<item>English Language Institute</item>
 	</Restrictions>
-	<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+	<Attributes>Course Attributes: </Attributes>
+		<Course-attributes>
+		<item>Exempt from 3peat processing</item>
+		<item>Exempt/Waive 6 drop process</item>
+		<item>CS Instruction Fee - G</item>
+		</Course-attributes>
 </Course>
