@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Divide>Computer_Science_Core</Divide>
+<Category>Computer_Science_Core</Category>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4325</Number>
@@ -10,9 +10,6 @@ The course presents formal computation models. Topics include finite state machi
 pushdown state machine, Turing machine, halting problem, definition and properties of
 formal grammars and their languages as well as theory of computability and complexity
 including the complexity of optimization and approximation problems.
-Prerequisites: CSCI 3333 or CMPE 3333 and CSCI 3336.
-3.000 Credit hours
-3.000 Lecture hours
 </Description>
 <Credit-hours>3.00</Credit-hours>
 <Lecture-hours>3.00</Lecture-hours>
