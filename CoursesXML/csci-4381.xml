@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4381</Number>
 	<Name>Interactive Systems and User Interface Design</Name>
 	<Description>
-		Presents principles and practice of information communication between user and system. The course examines results of past research, as well as evolving trends in interface design and implementation.
+		Presents principles and practice of information communication between user and system. The course examines 
+		results of past research, as well as evolving trends in interface design and implementation.
 	</Description>
 	<Credit-hours>3.000</Credit-hours>
 	<Lecture-hours>3.000</Lecture-hours>
@@ -17,11 +19,18 @@
 		<item>CMPE 3333</item>
 		<item>Consent of the instructor.</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
+	<Co-requisite>
+		<item>None</item>
+	</Co-requisite>
 	<Legacy-number>COSC-4332</Legacy-number>
 	<Cross-listed>CMPE-4381</Cross-listed> 
-	<Restrictions>
-		<item>None</item>
-	</Restrictions>
-	<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1></Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions2></Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
+	<Course-attributes>
+	<item>Degree elective</item>
+	<item>CS Instruction Fee - G</item>
+	</Course-attributes>
 </Course>
