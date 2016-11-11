@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Category>Graduate</Category>
+	<Divide>Graduate</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>6180</Number>
@@ -16,12 +16,16 @@
 	<Prerequisite>
 		<item>Consent of instructor</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
-	<Cross-listed>CMPE-4382</Cross-listed>
-	<Restrictions>
+	<Co-requisite>
 		<item>None</item>
-	</Restrictions>
+	</Co-requisite>
+	<Legacy-number>N/A</Legacy-number>
+	<Cross-listed>CMPE-4382</Cross-listed>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1></Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions2></Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 	<item>Exempt from 3peat processing</item>
 	<item>Exempt/Waive 6 drop process</item>
