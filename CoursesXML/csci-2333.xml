@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Computer_Science_Core</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>2333</Number>
