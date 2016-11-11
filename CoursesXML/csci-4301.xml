@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number><4301</Number>
@@ -14,23 +15,22 @@
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
-		Undergraduate level CSCI 3333 or CMPE 3333 Minimum Grade of D
+		<item>Undergraduate level CSCI 3333 or CMPE 3333 Minimum Grade of D</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
+		<Co-requisite><item>None</item></Co-requisite>
+		<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>
-	<item>CMPE 4301</item>
-	<item>A student may receive credit in only one course.</item>
+	<item>CMPE-4301 A student may receive credit in only one course.</item>
 	</Cross-listed>
-	<Restrictions>
-		<item>May not be enrolled in one of the following Programs:</item>
+	<Restrictions1>
 		<item>dnu-MED in Educational Admin</item>
 		<item>MPA in Public Administration</item>
 		<item>Bus. Admin -Accelerated online</item>
-		<item>May not be enrolled in one of the following Levels:</item>
+	</Restrictions1>
+	<Restrictions2>
 		<item>English Language Institute</item>
-	</Restrictions>	
+	</Restrictions2>
 	<Course-attributes>
-		Degree Elective, CS Instruction Fee - HU
+		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
