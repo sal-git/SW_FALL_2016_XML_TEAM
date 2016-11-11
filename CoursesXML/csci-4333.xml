@@ -19,15 +19,13 @@
 		<item>CSCI-3334</item>
 		<item>CMPE-3333</item>
 	</Prerequisite>
-	<Co-requisite>None
+	<Co-requisite><item>None</item>
 	</Co-requisite>
-	<Legacy-number>None</Legacy-number>
+	<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
-	<Restrictions_Programs></Restrictions_Programs>
 	<Restrictions1>
 	</Restrictions1>
-	<Restrictions_Levels></Restrictions_Levels>
-	<Restrictions> 
-	</Restrictions>
-	<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+	<Restrictions2> 
+	</Restrictions2>
+	<Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
