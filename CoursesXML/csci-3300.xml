@@ -17,12 +17,15 @@ This course is designed to give students an opportunity to gain practical experi
   <item>Junior standing, minimum 12 hours of Computer Science (CSCI) completed and approved by both the department and employer providing the practicum/internship experience.</item>
 </Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
+	<Attributes>Course Attribtues: </Attributes>
 <Course-attributes>
-Exempt from 3peat processing, Degree Elective, CS Instruction Fee - HU
+	<item>Exempt from 3peat processing</item>
+	<item>Degree Elective</item>
+	<item>CS Instruction Fee - HU</item>
 </Course-attributes>
-<Legacy-number>COSC 4386</Legacy-number>
-<Cross-listed>CMPE 3300</Cross-listed>
-<Restrictions_Programs>>May not be enrolled in one of the following Programs:</Restrictions_Programs>
+<Legacy-number>COSC-4386</Legacy-number>
+<Cross-listed>CMPE-3300</Cross-listed>
+<Restrictions_Programs>May not be enrolled in one of the following Programs:</Restrictions_Programs>
 	<Restrictions1>
   <item>dnu-MED in Educational Admin</item>
   <item>MPA in Public Administration</item>
