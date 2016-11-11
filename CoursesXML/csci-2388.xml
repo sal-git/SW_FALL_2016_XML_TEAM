@@ -14,13 +14,9 @@ A second programming course includes problem solving by structured design. Provi
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
 <Prerequisite>
-  <item>CSCI 1378</item>
-  <item>CSCI 1370</item>
-  <item>CMPE 1370</item>
-  <item>Consent of instructor</item>
-  <item>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D</item>
+  <item>Undergraduate level CSCI 1378, CSCI 1370, or CMPE 1370 with a minimum grade of D</item>
 </Prerequisite>
-<Co-requisite>None</Co-requisite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Attributes>Course Attribtues: </Attributes>
 	<Course-attributes><item>Degree Elective</item>
 		<item>CS Instruction Fee -LU</item>
@@ -33,7 +29,7 @@ A second programming course includes problem solving by structured design. Provi
   <item>MPA in Public Administration</item>
   <item>Bus. Admin -Accelerated online.</item> 
 	</Restrictions1>
-	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
+	<Restrictions_Levels></Restrictions_Levels>
 	<Restrictions2> 
   <item>English Language Institute</item>
 	</Restrictions2>
