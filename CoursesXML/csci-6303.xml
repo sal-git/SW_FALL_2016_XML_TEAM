@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Graduate</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>6303</Number>
@@ -15,11 +16,14 @@
 	<Prerequisite>
 		<item>Knowledge of a high level programming language and consent of instructor</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
+	<Co-requisite>
+		<item>None</item>
+	</Co-requisite>
 	<Legacy-number>None</Legacy-number>
 	<Cross-listed>None</Cross-listed>
-	<Restrictions>
-		<item>None</item>
-	</Restrictions>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1></Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions2></Restrictions2>
 	<Course-attributes>Exempt from 3peat processing, Exempt/Waive 6 drop process, CS Instruction Fee - G</Course-attributes>
 </Course>
