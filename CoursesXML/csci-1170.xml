@@ -23,6 +23,10 @@
 	<Restrictions_Levels></Restrictions_Levels>
 	<Restrictions> 
 	</Restrictions>
-	<Course-attributes>Degree Elective, Course fee - Computer Science, CS Instruction Fee - LU
+	<Attributes>Course Attributes:</Attributes>
+	<Course-attributes>
+		<item>Degree Elective</item>
+		<item>Course fee - Computer Science</item>
+		<item>CS Instruction Fee - LU</item>
 	</Course-attributes>
 </Course>
