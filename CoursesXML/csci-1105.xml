@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Category>Other</Category>
+	<Divide>Other</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>1105</Number>
@@ -15,8 +15,13 @@
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>None</Prerequisite>
 	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>None</Restrictions>
+	<Legacy-number>N/A</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions> 
+	</Restrictions>
 	<Course-attributes>None</Course-attributes>
 </Course>
