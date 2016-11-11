@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4370</Number>
@@ -16,11 +17,15 @@
 		<item>CSCI-3370</item>
 		<item>Consent of Instructor</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>
+	<Co-requisite>
 		<item>None</item>
-	</Restrictions>
-	<Course-attributes>None</Course-attributes>
+	</Co-requisite>
+	<Legacy-number>N/A</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1></Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions2></Restrictions2>
+	<Attributes></Attributes>
+	<Course-attributes></Course-attributes>
 </Course>
