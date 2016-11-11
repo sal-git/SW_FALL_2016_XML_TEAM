@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+  <Category>Computer_Science_Core</Category>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3340</Number>
@@ -14,16 +15,22 @@
   <Lab-hours>3.000</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
-    <Prerequisite>CSCI-2388 or CSCI-2830</Prerequisite>
-    <Prerequisite>CMPE-2380 or CMPE-2388</Prerequisite>
-    <Prerequisite>3 Advance Hours in CSCI</Prerequisite>
-  <Co-requisite>CMPE-3340</Co-requisite>
+  <Prerequisite>
+    <item>CSCI-2388 or CSCI-2830</item>
+    <item>CMPE-2380 or CMPE-2388</item>
+    <item>3 Advance Hours in CSCI</item>
+  </Prerequisite>
+  <Co-requisite>
+    <item>CMPE-3340</item>
+  </Co-requisite>
   <Legacy-number>COSC-4346</Legacy-number>
   <Cross-listed>CMPE-3340</Cross-listed>
-    <Restrictions>May not be enrolled in dnu-MED in Educational Admin </Restrictions>
-    <Restrictions>May not be enrolled in MPA in Public Administration </Restrictions>
-    <Restrictions>May not be enrolled in Bus. Admin -Accelerated online </Restrictions>
-    <Restrictions>May not be enrolled in English Language Institute </Restrictions>
+  <Restrictions>
+    <item>May not be enrolled in dnu-MED in Educational Admin </item>
+    <item>May not be enrolled in MPA in Public Administration </item>
+    <item>May not be enrolled in Bus. Admin -Accelerated online </item>
+    <item>May not be enrolled in English Language Institute </item>
+  </Restrictions>
   <Course-attributes>
     Degree Elective, Course fee - Computer Science, CS Instruction Fee – LU
   </Course-attributes>

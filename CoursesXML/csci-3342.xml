@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+  <Category>Technical_Electives</Category>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3342</Number>
@@ -18,18 +19,24 @@
   <Lab-hours>0.000</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
-  <Prerequisite>CSCI-2380 or CSCI-2388</Prerequisite>
-  <Prerequisite>CMPE-2380 or CMPE-2388</Prerequisite>
-  <Prerequisite>CSCI-3327 or CSCI-3328</Prerequisite>
+  <Prerequisite>
+    <item>CSCI-2380 or CSCI-2388</item>
+    <item>CMPE-2380 or CMPE-2388</item>
+    <item>CSCI-3327 or CSCI-3328</item>
+  </Prerequisite>
   <Co-requisite>
     <item>CMPE-3341</item>
   </Co-requisite>
   <Legacy-number>COSC-4346</Legacy-number>
-  <Cross-listed>CMPE-3342</Cross-listed>
-    <Restrictions>May not be enrolled in dnu-MED in Educational Admin </Restrictions>
-    <Restrictions>May not be enrolled in MPA in Public Administration </Restrictions>
-    <Restrictions>May not be enrolled in Bus. Admin -Accelerated online </Restrictions>
-    <Restrictions>May not be enrolled in English Language Institute </Restrictions>
+  <Cross-listed>
+    <item>CMPE-3342</item>
+  </Cross-listed>
+  <Restrictions>
+    <item>May not be enrolled in dnu-MED in Educational Admin </item>
+    <item>May not be enrolled in MPA in Public Administration </item>
+    <item>May not be enrolled in Bus. Admin -Accelerated online </item>
+    <item>May not be enrolled in English Language Institute </item>
+  </Restrictions>
   <Course-attributes>
     Degree Elective, CS Instruction Fee – HU
   </Course-attributes>

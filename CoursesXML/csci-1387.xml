@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Course>
+    <Category>Other_HON</Category>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>1387</Number>

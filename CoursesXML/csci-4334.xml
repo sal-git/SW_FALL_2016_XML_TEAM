@@ -1,18 +1,24 @@
 <Course>
+  <Category>Databases</Category>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
-<Number>4333</Number>
-<Name>Database Design & Implement</Name>
-<Description>Study of logical (hierarchical, network, relational) and physical (sequential, indexed, relative) organization of databases. Database management systems and their features, querying databases, distributed databases, and data compression.
+<Number>4334</Number>
+<Name>Operating Systems</Name>
+<Description>
+This course provides a study of the basic concepts of operating systems: process management, memory management, file systesms, resource allocation, and protection.
 </Description>
 <Credit-hours>3.000</Credit-hours>
 <Lecture-hours>3.000</Lecture-hours>
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite><item>CSCI-3334</item><item>CMPE 3333</item> </Prerequisite>
-<Co-requisite>None</Co-requisite>
+<Prerequisite>
+  <item>CSCI-3333</item>
+  <item>CMPE-3333</item>
+</Prerequisite>
+<Co-requisite><item>CMPE 4334<item></Co-requisite>
 <Course-attributes>
-<item>Degree Elective</item><item> CS Instruction Fee - HU </item>
+<item>Degree Elective</item>
+<item> CS Instruction Fee - HU </item>
 </Course-attributes>
 </Course>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Category>Graduate</Category>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>6180</Number>
@@ -17,7 +18,7 @@
 	</Prerequisite>
 	<Co-requisite>None</Co-requisite>
 	<Legacy-number>None</Legacy-number>
-	<Cross-listed>CMPE-4382</Cross-listed> 
+	<Cross-listed>CMPE-4382</Cross-listed>
 	<Restrictions>
 		<item>None</item>
 	</Restrictions>
