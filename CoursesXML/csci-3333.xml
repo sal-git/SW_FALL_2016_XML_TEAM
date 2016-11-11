@@ -1,19 +1,32 @@
-﻿<Course>
+<Course>
+  <Divide>Computer_Science_Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3333</Number>
   <Name>Algorithms and Data Structures</Name>
   <Description>
-    This course is a continuation of data structures topics covered in CSCI 2380. Content includes theoretical topics in algorithmic efficiency and complexity, along with abstract data types, including graphs, networks, trees, and priority queues. Search topics, including hashing, trees, external search trees (B-trees), and sorting algorithms including external sorting are introduced and compared. Computational complexity topics include the class P and NP, NP-completeness and reducibility, NP-completeness proofs, and NP-complete problems.
+    This course is a continuation of data structures topics covered in CSCI 2380. Content includes theoretical topics in 
+    algorithmic efficiency and complexity, along with abstract data types, including graphs, networks, trees, and priority 
+    queues. Search topics, including hashing, trees, external search trees (B-trees), and sorting algorithms including 
+    external sorting are introduced and compared. Computational complexity topics include the class P and NP, NP-completeness 
+    and reducibility, NP-completeness proofs, and NP-complete problems.
   </Description>
   <Credit-hours>3.000</Credit-hours>
   <Lecture-hours>3.000</Lecture-hours>
   <Lab-hours>None</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
-  <Prerequisite>CSCI/CMPE 2380 (or CSCI/CMPE 2388)</Prerequisite>
-  <Co-requisite>Credit/registration for MATH 2346 or CSCI 3310 or MATH 2305</Co-requisite>
+   <Prerequisite><item>CSCI/CMPE 2380 or CSCI/CMPE 2388</item></Prerequisite>
+   <Co-requisite><item>Credit/registration for MATH 2346, CSCI 3310, or MATH 2305</item></Co-requisite>
+   <Legacy-number>N/A</Legacy-number>
+  <Cross-listed>N/A</Cross-listed>
+  <Restrictions_Programs></Restrictions_Programs>
+  <Restrictions1></Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes>Course Attributes:</Attributes>
   <Course-attributes>
-    Degree Elective, CS Instruction Fee - HU
+    <item>Degree Elective</item> 
+    <item>CS Instruction Fee - HU</item>
   </Course-attributes>
 </Course>
