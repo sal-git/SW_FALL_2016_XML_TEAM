@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Category>Computer_Science_Core_HON</Category>
+	<Divide>Computer_Science_Core_HON</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>1178</Number>
@@ -14,12 +14,15 @@
 	<Level>Undergraduate</Level>
 	<Schedule-type>Laboratory</Schedule-type>
 	<Prerequisite>None</Prerequisite>
-	<Co-requisite>CSCI 1378 (Honors)</Co-requisite>
-	<Legacy-number>None</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>None</Restrictions>
-	<Course-attributes>
-		<item>Computer Science</item>
-		<item>CS Instruction Fee - LU</item>
+	<Co-requisite><item>CSCI 1378 (Honors)</item></Co-requisite>
+	<Legacy-number>N/A</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions> 
+	</Restrictions>
+	<Course-attributes>Computer Science, >CS Instruction Fee - LU
 	</Course-attributes>
 </Course>
