@@ -18,11 +18,15 @@
       <item>CSCI 1101</item>
       <item>Admission to the honors program</item>
     </Prerequisite>
-    <Co-requisite>CSCI 1178</Co-requisite>
-    <Legacy-number>None</Legacy-number>
+    <Co-requisite><item>CSCI 1178</item></Co-requisite>
+    <Legacy-number>N/A</Legacy-number>
     <Cross-listed>CMPE 1378</Cross-listed>
-    <Restrictions>None</Restrictions>
-    <Course-attributes>
-      <item>CS Instruction Fee -LU</item>
+    <Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions> 
+	</Restrictions>
+    <Course-attributes>CS Instruction Fee -LU
     </Course-attributes>
 </Course>
