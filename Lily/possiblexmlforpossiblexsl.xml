@@ -1,79 +1,39 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="/">
-	<html>
-	<body>
-		<h1><b><xsl:value-of select="Course/Department"/></b></h1>
-		
-		<h3>
-		<xsl:value-of select="Course/Prefix"/><xsl:text> </xsl:text>
-		<xsl:value-of select="Course/Number"/><xsl:text> - </xsl:text>
-		<xsl:value-of select="Course/Name"/>
-		</h3>
-		
-		<xsl:value-of select="Course/Description"/>
-		<br/>
-		<br/>
-		
-		<xsl:value-of select="Course/Credit-hours"/><xsl:text> Credit Hours</xsl:text>
-		<br/>
-		<xsl:value-of select="Course/Lecture-hours"/><xsl:text> Lecture Hours</xsl:text>
-		<br/>
-		<xsl:value-of select="Course/Lab-hours"/><xsl:text> Lab Hours</xsl:text>
-		<br/>
-		<br/>
-		
-		<xsl:text>Schedule Type: </xsl:text><xsl:value-of select="Course/Schedule-type"/>
-		<br/>
-		<br/>
-		
-		<xsl:text>Prerequisites: </xsl:text>
-		<br/>
-			<xsl:for-each select="Course/Prerequisite/item">
-			<li>
-			<xsl:value-of select="."/>
-			</li>
-			</xsl:for-each>
-		<br/>
-		
-		<xsl:text>Co-requisites: </xsl:text>
-		<br/>
-			<xsl:for-each select="Course/Co-requisite/item">
-			<li>
-			<xsl:value-of select="."/>
-			</li>
-			</xsl:for-each>
-		<br/>
-		
-		<xsl:text>Legacy Number: </xsl:text>
-			<xsl:value-of select="Course/Legacy-number"/>
-		<br/>
-		<xsl:text>Cross Listed: </xsl:text>
-			<xsl:value-of select="Course/Cross-listed"/>
-		<br/>
-		<br/>
-		
-		<xsl:value-of select="Course/Restrictions_Programs"/>
-		<br/>
-			<xsl:for-each select="Course/Restrictions1/item">
-			<li>
-			<xsl:value-of select="."/>
-			</li>
-			</xsl:for-each>
-		<br/>
-		
-		<xsl:value-of select="Course/Restrictions_Levels"/>
-		<br/>
-			<xsl:for-each select="Course/Restrictions/item">
-			<li>
-			<xsl:value-of select="."/>
-			</li>
-			</xsl:for-each>
-		<br/>
-		<br/>
-		
-		<xsl:value-of select="Course/Course-attributes"/>
-		<br/>
-	</body>
-	</html>
-</xsl:template>
-</xsl:stylesheet>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+	<Divide>Computer_Science_Core</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>4325</Number>
+	<Name>Automata, Formal Lang, and Comp</Name>
+	<Description>
+	The course presents formal computation models. Topics include finite state machine,
+	pushdown state machine, Turing machine, halting problem, definition and properties of
+	formal grammars and their languages as well as theory of computability and complexity
+	including the complexity of optimization and approximation problems.
+	</Description>
+	<Credit-hours>3.00</Credit-hours>
+	<Lecture-hours>3.00</Lecture-hours>
+	<Lab-hours>0.00</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite>
+		<item>CSCI-3333 or CMPE-3333</item>
+		<item>CSCI-3336</item>
+	</Prerequisite>
+	<Co-requisite>
+		<item>None</item>
+	</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions_Programs>May not be enrolled in one of the following Programs: </Restrictions_Programs>
+	<Restrictions1>
+		<item>dnu-MED in Educational Admin</item>
+		<item>MPA in Public Administration</item>
+		<item>Bus. Admin -Accelerated online</item>
+	</Restrictions1>
+	<Restrictions_Levels>May not be enrolled in one of the following Levels: </Restrictions_Levels>
+	<Restrictions> 
+		<item>English Language Institute</item>
+	</Restrictions>
+	<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+</Course>
