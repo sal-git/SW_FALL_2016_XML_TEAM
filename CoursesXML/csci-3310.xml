@@ -20,9 +20,8 @@ An introduction to some of the more important concepts, techniques, and structur
 <item>CSCI/CMPE 1378</item>
 </Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
-<Course-attributes>
-None
-</Course-attributes>
+	<Attributes>Course Attribtues: </Attributes>
+	<Course-attributes><item>None</item> </Course-attributes>
 <Legacy-number>COSC 2310</Legacy-number>
 <Cross-listed>N/A</Cross-listed>
 <Restrictions_Programs>>May not be enrolled in one of the following Programs:</Restrictions_Programs>
