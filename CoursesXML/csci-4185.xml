@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+<Divide>Technical_Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4185 </Number>
@@ -12,7 +13,15 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Independent Study</Schedule-type>
-<Prerequisite> Consent of instructor</Prerequisite>
-<Co-requisite>None</Co-requisite>
-<Course-attributes>Exempt from 3peat processing, CS Instruction Fee - HU</Course-attributes>
+  <Prerequisite><item>Consent of instructor</item></Prerequisite>
+  <Co-requisite><item>None</item></Co-requisite>
+  <Course-attributes><item>Exempt from 3peat processing</item><item>CS Instruction Fee - HU</item></Course-attributes>
+   <Legacy-number>N/A</Legacy-number>
+  <Cross-listed>
+    N/A
+  </Cross-listed>
+  <Restrictions1>
+	</Restrictions1>
+  <Restrictions2>
+	</Restrictions2>
 </Course>
