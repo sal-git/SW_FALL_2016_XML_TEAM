@@ -1,19 +1,32 @@
-﻿<Course>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+  <Divide>Computer_Science_Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3336</Number>
   <Name>Organization of Program Lang</Name>
   <Description>
-    This course describes the fundamental concepts of programming languages by discussing the design of the various language constructs, examining the design choices for these constructs, critically comparing design alternatives and discussing implementation techniques. The underlying theory and formal modes of describing the syntax and semantics including finite automata and regular expressions, context-free grammars, context-sensitive languages and the Chomsky Hierarchy are included.
+    This course describes the fundamental concepts of programming languages by discussing the design of the various language 
+    constructs, examining the design choices for these constructs, critically comparing design alternatives and discussing 
+    implementation techniques. The underlying theory and formal modes of describing the syntax and semantics including finite 
+    automata and regular expressions, context-free grammars, context-sensitive languages and the Chomsky Hierarchy are included.
   </Description>
   <Credit-hours>3.000</Credit-hours>
   <Lecture-hours>3.000</Lecture-hours>
   <Lab-hours>None</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
-  <Prerequisite>CSCI 2380 (or CSCI 2388) or CMPE 2380 (CMPE 2388)</Prerequisite>
-  <Co-requisite>None</Co-requisite>
+  <Prerequisite><item>CSCI 2380/CSCI 2388 or CMPE 2380/CMPE 2388</item></Prerequisite>
+  <Co-requisite><item>None</item></Co-requisite>
+   <Legacy-number>N/A</Legacy-number>
+  <Cross-listed>N/A</Cross-listed>
+  <Restrictions_Programs></Restrictions_Programs>
+  <Restrictions1></Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes>Course Attributes:</Attributes>
   <Course-attributes>
-    Degree Elective, CS Instruction Fee - HU
+	<item>Degree Elective</item>
+	<item>CS Instruction Fee - HU</item>
   </Course-attributes>
 </Course>
