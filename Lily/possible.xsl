@@ -22,14 +22,24 @@
 <xsl:value-of select="Course/Lab-hours"/><xsl:text> Lab Hours</xsl:text>
 <br/>
 <br/>
-<xsl:text>Schedule Types: </xsl:text><xsl:value-of select="Course/Schedule-type"/>
+<xsl:text>Schedule Type: </xsl:text><xsl:value-of select="Course/Schedule-type"/>
 <br/>
 <br/>
 <xsl:text>Prerequisites: </xsl:text>
-<xsl:value-of select="Course/Prerequisite"/>
+<br/>
+<xsl:for-each select="Course/Prerequisite/item">
+<li>
+<xsl:value-of select="."/>
+</li>
+</xsl:for-each>
 <br/>
 <xsl:text>Co-requisites: </xsl:text>
-<xsl:value-of select="Course/Co-requisite"/>
+<br/>
+<xsl:for-each select="Course/Co-requisite/item">
+<li>
+<xsl:value-of select="."/>
+</li>
+</xsl:for-each>
 <br/>
 <xsl:text>Legacy Number: </xsl:text>
 <xsl:value-of select="Course/Legacy-number"/>
@@ -38,19 +48,17 @@
 <xsl:value-of select="Course/Cross-listed"/>
 <br/>
 <br/>
-
-<xsl:value-of select="Course/Restrictions"/>
+<xsl:value-of select="Course/Restrictions_Programs"/>
 <br/>
-<xsl:for-each select="Course/Restrictions1/item1">
+<xsl:for-each select="Course/Restrictions1/item">
 <li>
 <xsl:value-of select="."/>
 </li>
 </xsl:for-each>
 <br/>
+<xsl:value-of select="Course/Restrictions_Levels"/>
 <br/>
-<xsl:value-of select="Course/Restrictions"/>
-<br/>
-<xsl:for-each select="Course/Restrictions2/item2">
+<xsl:for-each select="Course/Restrictions/item">
 <li>
 <xsl:value-of select="."/>
 </li>
