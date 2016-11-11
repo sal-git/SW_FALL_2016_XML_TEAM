@@ -52,7 +52,7 @@
 		<br/>
 		<br/>
 		
-		<xsl:text>Rescrticion Programs: </xsl:text>
+		<xsl:text>Restriction Programs: </xsl:text>
 		<br/>
 			<xsl:for-each select="Course/Restrictions1/item">
 			<li>
@@ -61,9 +61,9 @@
 			</xsl:for-each>
 		<br/>
 		
-		<xsl:value-of select="Course/Restrictions_Levels"/>
+		<xsl:text>Restriction Levels: </xsl:text>
 		<br/>
-			<xsl:for-each select="Course/Restrictions/item">
+			<xsl:for-each select="Course/Restrictions2/item">
 			<li>
 			<xsl:value-of select="."/>
 			</li>
