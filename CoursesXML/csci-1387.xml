@@ -13,8 +13,8 @@
     <Lab-hours>0.000</Lab-hours>
     <Level>Undergraduate</Level>
     <Schedule-type>Lecture</Schedule-type>
-    <Prerequisite>Concurrent enrollment or credit for MATH 1314 or higher level mathematics course.</Prerequisite>
-    <Co-requisite>None</Co-requisite>
+    <Prerequisite><item>Concurrent enrollment or credit for MATH 1314 or higher level mathematics course.</item></Prerequisite>
+    <Co-requisite><item>None</item></Co-requisite>
     <Legacy-number>N/A</Legacy-number>
     <Cross-listed>N/A</Cross-listed>
     <Restrictions_Programs></Restrictions_Programs>
