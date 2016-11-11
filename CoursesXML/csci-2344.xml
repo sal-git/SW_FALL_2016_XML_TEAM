@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+  <Divide>Computer_Science_Core</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>2344</Number>
@@ -9,16 +11,25 @@
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite>CSCI-1370</Prerequisite>
-<Prerequisite>CSCI-1378</Prerequisite>
-<Prerequisite>CSCI-1380</Prerequisite>
-<Prerequisite>CSCI-1387</Prerequisite>
-<Prerequisite>consent of instructor</Prerequisite>
-<Co-requisite>None</Co-requisite>
-<Legacy-number>NONE</Legacy-number>
-<Cross-listed>None</Cross-listed>
-<Restrictions>May not be enrolled in one of the following Programs: dnu-MED in Educational Admin, MPA in Public Administration, Bus. Admin -Accelerated online. May not be enrolled in one of the following Levels: English Language Institute </Restrictions>
-<Course-attributes>
+  <Prerequisite><item>CSCI-1370</item>
+<item>CSCI-1378</item>
+<item>CSCI-1380</item>
+<item>CSCI-1387</item>
+<item>consent of instructor</item>
+  </Prerequisite>
+  <Co-requisite><item>None</item></Co-requisite>
+<Legacy-number>N/A</Legacy-number>
+<Cross-listed>N/A</Cross-listed>
+<Restrictions_Programs>May not be enrolled in one of the following Programs:</Restrictions_Programs>
+	<Restrictions1>
+  <item>dnu-MED in Educational Admin</item>
+  <item>MPA in Public Administration</item>
+  <item>Bus. Admin -Accelerated online.</item> 
+	</Restrictions1>
+	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
+	<Restrictions2> 
+  <item>English Language Institute</item>
+	</Restrictions2><Course-attributes>
 Degree Elective, CS Instruction Fee - LU
 </Course-attributes>
 </Course>
