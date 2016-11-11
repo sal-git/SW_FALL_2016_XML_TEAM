@@ -52,7 +52,7 @@
 		<br/>
 		<br/>
 		
-		<xsl:value-of select="Course/Restrictions_Programs"/>
+		<xsl:text>Rescrticion Programs: </xsl:text>
 		<br/>
 			<xsl:for-each select="Course/Restrictions1/item">
 			<li>
