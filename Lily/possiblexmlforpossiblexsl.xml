@@ -32,9 +32,9 @@
 		<item>Bus. Admin -Accelerated online</item>
 	</Restrictions1>
 	<Restrictions_Levels>May not be enrolled in one of the following Levels: </Restrictions_Levels>
-	<Restrictions> 
+	<Restrictions2> 
 		<item>English Language Institute</item>
-	</Restrictions>
+	</Restrictions2>
 	<Attributes>Course Attributes: </Attributes>
 		<Course-attributes>
 		<item>Exempt from 3peat processing</item>
