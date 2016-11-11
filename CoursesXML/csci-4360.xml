@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+    <Divide>Technical_Electives</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4360</Number>
-    <Name>Comp Graphics and Interactive Sy</Name>
+    <Name>Comp Graphics and Interactive Systems</Name>
     <Description>
-		Presents fundamental concepts of computer graphics. Topics include display hardware, transformations, geometric modeling, shading two- and three-dimensional display algorithms and graphics software systems.
+		Presents fundamental concepts of computer graphics. Topics include display hardware, transformations, geometric 
+	    modeling, shading two- and three-dimensional display algorithms and graphics software systems.
 	</Description>
     <Credit-hours>3.000</Credit-hours>
     <Lecture-hours>3.000</Lecture-hours>
@@ -17,14 +19,23 @@
 		<item>CMPE-3333</item>
 		<item>Consent of instructor</item>
 	</Prerequisite>
-    <Co-requisite>None</Co-requisite>
-    <Legacy-number>None</Legacy-number>
-    <Cross-listed>None</Cross-listed>
-    <Restrictions>
-		<item>May not be enrolled in dnu-MED in Educational Admin</item>
-		<item>May not be enrolled in MPA in Public Administration</item>
-		<item>May not be enrolled in Bus. Admin -Accelerated online</item>
-		<item>May not be enrolled in English Language Institute</item>
-	</Restrictions>
-    <Course-attributes>Degree Elective, CS Instruction Fee-HU</Course-attributes>
+     <Co-requisite>
+    <item>None</item>
+  </Co-requisite>
+  <Legacy-number>N/A</Legacy-number>
+  <Cross-listed>N/A</Cross-listed>
+  <Restrictions_Programs>May not be enrolled in: </Restrictions_Programs>
+  <Restrictions1>
+	  <item>dnu-MED in Educational Admin</item>
+	  <item>MPA in Public Administration</item>
+	  <item>Bus. Admin -Accelerated online</item>
+	  <item>English Language Institute</item>
+	</Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes>Course Attributes:</Attributes>
+  <Course-attributes>
+	<item>Degree Elective</item>
+	<item>CS Instruction Fee - HU</item>
+  </Course-attributes>
 </Course>
