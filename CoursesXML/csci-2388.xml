@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Category>Computer_Science_Core_HON</Category>
+<Divide>Computer_Science_Core_HON</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>2388</Number>
@@ -17,20 +18,21 @@ A second programming course includes problem solving by structured design. Provi
   <item>CSCI 1370</item>
   <item>CMPE 1370</item>
   <item>Consent of instructor</item>
-  <item>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D
+  <item>Undergraduate level CSCI 1378 Minimum Grade of D or Undergraduate level CSCI 1370 Minimum Grade of D or Undergraduate level CMPE 1370 Minimum Grade of D</item>
 </Prerequisite>
 <Co-requisite>None</Co-requisite>
-<Course-attributes>
-  <item>Degree Elective</item>
-  <item>CS Instruction Fee -LU</item>
+<Course-attributes>Degree Elective, >CS Instruction Fee -LU
 </Course-attributes>
-<Legacy-number>None</Legacy-number>
+<Legacy-number>N/A</Legacy-number>
 <Cross-listed>CMPE 2388</Cross-listed>
-<Restrictions>
-  <item>May not be enrolled in dnu MED in Educational Admin</item>
-  <item>May not be enrolled in MPA in Public Administration </item>
-  <item>May not be enrolled in Bus. Admin Accelerated online</item>
-  <item>May not be enrolled in English Language Institute</item>
-  <item>May not be enrolled in</item>
-</Restrictions>
+<Restrictions_Programs>>May not be enrolled in one of the following Programs:</Restrictions_Programs>
+	<Restrictions1>
+  <item>dnu-MED in Educational Admin</item>
+  <item>MPA in Public Administration</item>
+  <item>Bus. Admin -Accelerated online.</item> 
+	</Restrictions1>
+	<Restrictions_Levels>May not be enrolled in one of the following Levels:</Restrictions_Levels>
+	<Restrictions2> 
+  <item>English Language Institute</item>
+	</Restrictions2>
 </Course>
