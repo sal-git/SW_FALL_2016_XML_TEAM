@@ -31,7 +31,9 @@
 	<Restrictions2> 
   <item>English Language Institute</item>
 	</Restrictions2>
+	<Attributes>Course Attribtues: </Attributes>
 <Course-attributes>
-Degree Elective, CS Instruction Fee - LU
+	<item>Degree Elective</item>
+	<item>CS Instruction Fee - LU</item>
 </Course-attributes>
 </Course>
