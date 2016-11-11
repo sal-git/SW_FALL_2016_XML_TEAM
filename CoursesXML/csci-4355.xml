@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Course>
+    <Divide>Technical_Electives</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4355</Number>
@@ -10,12 +11,20 @@
     <Lab-hours>0.000</Lab-hours>
     <Level>Undergraduate</Level>
     <Schedule-type>Lecture</Schedule-type>
-    <Prerequisite>CSCI-3333</Prerequisite>
-    <Prerequisite>CMPE-3333</Prerequisite>
-    <Prerequisite>Consent of instructor.</Prerequisite>
-    <Co-requisite>None</Co-requisite>
-    <Legacy-number>None</Legacy-number>
-    <Cross-listed>None</Cross-listed>
-    <Restrictons>None</Restrictons>
-    <Course-attributes>None</Course-attributes>
+    <Prerequisite>
+        <item>CSCI-3333</item>
+        <item>CMPE-3333</item>
+        <item>Consent of instructor.</item>
+    </Prerequisite>
+     <Co-requisite>
+         <item>None</item>
+     </Co-requisite>
+  <Legacy-number>N/A</Legacy-number>
+  <Cross-listed>N/A</Cross-listed>
+  <Restrictions_Programs></Restrictions_Programs>
+  <Restrictions1></Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes></Attributes>
+  <Course-attributes></Course-attributes>
 </Course>
