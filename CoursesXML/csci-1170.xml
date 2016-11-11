@@ -13,8 +13,8 @@
 	<Lab-hours>3.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Laboratory</Schedule-type>
-	<Prerequisite>None</Prerequisite>
-	<Co-requisite>CSCI 1370 (or CSCI 1378)</Co-requisite>
+	<Prerequisite><item>None</item></Prerequisite>
+	<Co-requisite><item>CSCI 1370 (or CSCI 1378)</item></Co-requisite>
 	<Legacy-number>COSC-1336</Legacy-number>
 	<Cross-listed>CSCI-1370</Cross-listed>
 	<Restrictions_Programs></Restrictions_Programs>
@@ -23,6 +23,6 @@
 	<Restrictions_Levels></Restrictions_Levels>
 	<Restrictions> 
 	</Restrictions>
-	<Course-attributes> >Degree Elective, Course fee - Computer Science, CS Instruction Fee - LU
+	<Course-attributes>Degree Elective, Course fee - Computer Science, CS Instruction Fee - LU
 	</Course-attributes>
 </Course>
