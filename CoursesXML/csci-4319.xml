@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4319</Number>
@@ -10,9 +11,11 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequesite>CSCI-2344</Prerequesite>
-	<Prerequesite>CSCI-2380/CMPE-2380</Prerequesite>
-	<Co-requisite>None</Co-requisite>
+	<Prerequesite><item>CSCI-2344</item><item>CSCI-2380 or CMPE-2380</item></Prerequesite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>N/A</Legacy-number>
-	<Course-attributes>None</Course-attributes>
+	<Cross-listed>N/A</Cross-listed>
+	<Course-attributes><item>None</item></Course-attributes>
+	<Restrictions1></Restrictions1>
+	<Restrictions2></Restrictions2>
 </course>
