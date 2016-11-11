@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+<Divide>Technical_Elective</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>3370 </Number>
@@ -12,8 +13,14 @@ This is a project based course in which programmers and designers collaborate to
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite>CSCI/CMPE 3333</Prerequisite>
-<Prerequisite>CSCI/CMPE 3326 or CSCI/CMPE 3327 or CSCI/CMPE 3328 or consent of instructor</Prerequisite>
-<Co-requisite>None</Co-requisite>
-<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+ <Prerequisite>
+  <item>CSCI-3333 or CMPE-3333</item>
+  <item>CSCI-3326 or CMPE 3326 or CSCI-3327 or CMPE 3327 or CSCI-3328 or CMPE-3328 or consent of instructor</item>
+ </Prerequisite>
+  <Co-requisite><item>None</item></Co-requisite>
+<Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
+<Legacy-number>N/A</Legacy-number>
+<Cross-listed>N/A</Cross-listed>
+  <Restrictions1></Restrictions1>
+  <Restrictions2></Restrictions2>
 </Course>
