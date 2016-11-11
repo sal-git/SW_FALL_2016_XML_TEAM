@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Category>Technical_Electives</Category>
+  <Divide>Technical_Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3341</Number>
-  <Name>Software Engineering ll</Name>
+  <Name>Software Engineering II</Name>
   <Description>
     The course will cover the analysis of requirements and software architecture with a major
     emphasis on object design, implementation, testing and validation, maintenance and software
@@ -28,13 +28,18 @@
   <Cross-listed>
     <item>CMPE-3341</item>
   </Cross-listed>
-  <Restrictions>
-    <item>May not be enrolled in dnu-MED in Educational Admin </item>
-    <item>May not be enrolled in MPA in Public Administration </item>
-    <item>May not be enrolled in Bus. Admin -Accelerated online </item>
-    <item>May not be enrolled in English Language Institute </item>
-  </Restrictions>
+  <Restrictions_Programs>May not be enrolled in: </Restrictions_Programs>
+  <Restrictions1>
+	  <item>dnu-MED in Educational Admin</item>
+	  <item>MPA in Public Administration</item>
+	  <item>Bus. Admin -Accelerated online</item>
+	  <item>English Language Institute</item>
+	</Restrictions1>
+  <Restrictions_Levels></Restrictions_Levels>
+  <Restrictions2></Restrictions2>
+  <Attributes>Course Attributes:</Attributes>
   <Course-attributes>
-    Degree Elective, CS Instruction Fee – HU
+	<item>Degree Elective</item>
+	<item>CS Instruction Fee - HU</item>
   </Course-attributes>
 </Course>
