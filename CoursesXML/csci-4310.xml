@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course>
+	<Divide>Techincal_Elective</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4310</Number>
@@ -10,9 +11,9 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequesite>CSCI-3333 or consent of instructor</Prerequesite>
-	<Co-requisite>None</Co-requisite>
+	<Prerequesite><item>CSCI-3333 or consent of instructor</item></Prerequesite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>N/A</Legacy-number>
-	<Course-attributes>Degree Elective</Course-attributes>
-	<Course-attributes>CS Instruction Fee - HU</Course-attributes>
+	<Cross-listed>N/A</Cross-listed>
+	<Course-attributes><item>CS Instruction Fee - HU</item><item>Degree Elective</item></Course-attributes>
 </course>
