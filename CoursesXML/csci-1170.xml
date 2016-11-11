@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Category>Computer_Science_Core</Category>
+	<Divide>Computer_Science_Core</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>1170</Number>
@@ -15,12 +15,14 @@
 	<Schedule-type>Laboratory</Schedule-type>
 	<Prerequisite>None</Prerequisite>
 	<Co-requisite>CSCI 1370 (or CSCI 1378)</Co-requisite>
-	<Legacy-number>COSC 1336</Legacy-number>
-	<Cross-listed>CSCI 1370</Cross-listed>
-	<Restrictions>None</Restrictions>
-	<Course-attributes>
-		<item>Degree Elective</item>
-		<item>Course fee - Computer Science</item>
-		<item>CS Instruction Fee - LU</item>
+	<Legacy-number>COSC-1336</Legacy-number>
+	<Cross-listed>CSCI-1370</Cross-listed>
+	<Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions> 
+	</Restrictions>
+	<Course-attributes> >Degree Elective, Course fee - Computer Science, CS Instruction Fee - LU
 	</Course-attributes>
 </Course>
