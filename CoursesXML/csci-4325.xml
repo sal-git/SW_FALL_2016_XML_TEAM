@@ -21,8 +21,12 @@ Prerequisites: CSCI 3333 or CMPE 3333 and CSCI 3336.
 <Schedule-type>Lecture</Schedule-type>
 <Cross-listed>NA</Cross-listed>
 <Legacy>NA</Legacy>
-<Restrictions>May not be enrolled in one of the following Programs: dnu-MED in Educational Admin, MPA in Public Administration Bus. Admin -Accelerated online.
-May not be enrolled in one of the following Levels: English Language Institute</Restrictions>
+<Restrictions>
+  <item>May not be enrolled in dnu-MED in Educational Admin</item> 
+  <item>May not be enrolled in MPA in Public Administration Bus.</item> 
+  <item>May not be enrolled in Admin -Accelerated online.</item>
+  <item>May not be enrolled in English Language Institute</item>
+  </Restrictions>
 <Prerequisite>CSCI-3333 or CMPE-3333 or CSCI-3336</Prerequisite>
 <Co-requisite>None</Co-requisite>
 <Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
