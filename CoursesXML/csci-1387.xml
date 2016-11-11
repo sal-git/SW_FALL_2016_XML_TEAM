@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Course>
-    <Category>Other_HON</Category>
+    <Divide>Other_HON</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>1387</Number>
@@ -15,8 +15,13 @@
     <Schedule-type>Lecture</Schedule-type>
     <Prerequisite>Concurrent enrollment or credit for MATH 1314 or higher level mathematics course.</Prerequisite>
     <Co-requisite>None</Co-requisite>
-    <Legacy-number>None</Legacy-number>
-    <Cross-listed>None</Cross-listed>
-    <Restrictions>None</Restrictions>
+    <Legacy-number>N/A</Legacy-number>
+    <Cross-listed>N/A</Cross-listed>
+    <Restrictions_Programs></Restrictions_Programs>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions_Levels></Restrictions_Levels>
+	<Restrictions> 
+	</Restrictions>
     <Course-attributes>Degree Elective, CS Instruction Fee - LU</Course-attributes>
 </Course>
