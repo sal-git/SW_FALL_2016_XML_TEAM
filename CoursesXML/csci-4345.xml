@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4365</Number>
@@ -16,11 +17,12 @@
 		<item>CSCI-4345</item>
 		<item>CMPE-4345</item>
 	</Prerequisite>
-	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>
-		<item>None</item>
-	</Restrictions>
-	<Course-attributes>None</Course-attributes>
+	<Co-requisite><item>None</item></Co-requisite>
+	<Legacy-number>N/A</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions1>
+	</Restrictions1>
+	<Restrictions2>
+	</Restrictions2>
+	<Course-attributes><item>None</item></Course-attributes>
 </Course>
