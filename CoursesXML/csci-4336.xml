@@ -1,4 +1,5 @@
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4336</Number>
@@ -11,21 +12,23 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequisite>CSCI-4335</Prerequisite>
-	<Prerequisite>CMPE-4335</Prerequisite>
-	<Prerequisite>CMPE-4380</Prerequisite>
-	<Co-requisite>None</Co-requisite>
-	<Legacy-number>None</Legacy-number>
+	<Prerequisite>
+	<item>CSCI-4335</item>
+	<item>CMPE-4335</item>
+	<item>CMPE-4380</item>
+	</Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
+	<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>CMPE-4336</Cross-listed>
-	<Restrictions>
-	May not be enrolled in one of the following Programs:      
-      dnu-MED in Educational Admin 
-      MPA in Public Administration 
-      Bus. Admin -Accelerated online 
-	May not be enrolled in one of the following Levels:      
-      English Language Institute
-	</Restrictions>
+	<Restrictions1>
+		<item>dnu-MED in Educational Admin</item>
+		<item>MPA in Public Administration</item> 
+		<item>Bus. Admin -Accelerated online</item>     
+	</Restrictions1>
+	<Restrictions2>
+		<item>English Language Institute</item>
+	</Restrictions2>
 	<Course-attributes>
-	Degree Elective, CS Instruction Fee - HU
+		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
