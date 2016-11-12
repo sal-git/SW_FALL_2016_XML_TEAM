@@ -1,4 +1,5 @@
 <Course>
+	<Divide>Techincal_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4341</Number>
@@ -11,12 +12,15 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequisite>Consent of instructor</Prerequisite>
-	<Co-requisite>None</Co-requisite>
+	<Prerequisite><item>Consent of instructor</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>COSC-4380</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>None</Restrictions>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions1></Restrictions1>
+	<Restrictions2></Restrictions2>
 	<Course-attributes>
-	Exempt from 3peat processing, Degree Elective, CS Instruction Fee - HU
+		<item>Exempt from 3peat processing</item> 
+		<item>Degree Elective</item> 
+		<item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
