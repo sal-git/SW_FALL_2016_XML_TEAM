@@ -1,4 +1,5 @@
 <Course>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4343</Number>
@@ -11,19 +12,19 @@
 	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequisite>CSCI 4333</Prerequisite>
-	<Co-requisite>None</Co-requisite>
+	<Prerequisite><item>CSCI-4333</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>COSC-4343</Legacy-number>
-	<Cross-listed>None</Cross-listed>
-	<Restrictions>
-	May not be enrolled in one of the following Programs:      
-      dnu-MED in Educational Admin 
-      MPA in Public Administration 
-      Bus. Admin -Accelerated online 
-	May not be enrolled in one of the following Levels:      
-      English Language Institute 
-	</Restrictions>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions1>   
+		<item>dnu-MED in Educational Admin</item> 
+		<item>MPA in Public Administration</item> 
+		<item>Bus. Admin -Accelerated online</item> 
+	</Restrictions1>
+	<Restrictions2>
+		<item>English Language Institute</item> 
+	</Restrictions2>
 	<Course-attributes>
-	Degree Elective, CS Instruction Fee - HU
+		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
