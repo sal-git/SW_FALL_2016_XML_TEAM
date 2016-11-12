@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
+<Divide>Techincal_Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4344</Number>
@@ -12,12 +13,13 @@ This course will provide and introduction to the rapidly evolving field of bioin
 <Lab-hours>0.000</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite>CSCI/CMPE 3333 or consent of instructor.</Prerequisite>
-<Co-requisite>None</Co-requisite>
+<Prerequisite><item>CSCI-3333 or CMPE 3333 or consent of instructor</item></Prerequisite>
+  <Co-requisite><item><item>None</item></item></Co-requisite>
 <Legacy-number>COSC-4381</Legacy-number>
-<Cross-listed>None</Cross-listed>
-<Restrictions>Senior or Junior standing.</Restrictions>
-<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
+<Cross-listed>N/A</Cross-listed>
+<Restrictions1><item>Senior or Junior standing</item></Restrictions1>
+<Restrictions2></Restrictions2>
+  <Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
 
 
