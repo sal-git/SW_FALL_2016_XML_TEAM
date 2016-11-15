@@ -10,9 +10,9 @@
   e-commerce scalable architecture design, Internet infrastructure, web server administration, 
   e-payment, mobile commerce systems, and business to business systems. 
   </Description>
-  <Credit-hours>3.00</Credit-hours>
-  <Lecture-hours>3.00</Lecture-hours>
-  <Lab-hours>0.00</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
   <Prerequisite><item>CSCI-3333 or CMPE-3333</item></Prerequisite>
