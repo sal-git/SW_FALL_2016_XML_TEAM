@@ -8,9 +8,9 @@
 <Description>
 A second programming course includes problem solving by structured design. Provides an introduction to elementary data structures, including linked lists, stacks, queues, trees and graphs, and advanced programming techniques, including recursion, sorting and searching.
 </Description>
-<Credit-hours>3.000</Credit-hours>
-<Lecture-hours>3.000</Lecture-hours>
-<Lab-hours>0.000</Lab-hours>
+<Credit-hours>3.000 Credit hours</Credit-hours>
+<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+<Lab-hours>0.000 Lab hours</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
 <Prerequisite>
@@ -19,11 +19,7 @@ A second programming course includes problem solving by structured design. Provi
 	<Co-requisite>
 		<item>None</item>
 	</Co-requisite>
-	<Course-attributes>
-		<item>Degree Elective</item>
-		<item>CS Instruction Fee -LU</item>
-</Course-attributes>
-<Legacy-number>N/A</Legacy-number>
+<Legacy-number>None</Legacy-number>
 <Cross-listed>CMPE 2388</Cross-listed>
 	<Restrictions1>
   		<item>dnu-MED in Educational Admin</item>
@@ -33,4 +29,9 @@ A second programming course includes problem solving by structured design. Provi
 	<Restrictions2> 
   		<item>English Language Institute</item>
 	</Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
+		<Course-attributes>
+		<item>Degree Elective</item>
+		<item>CS Instruction Fee -LU</item>
+</Course-attributes>
 </Course>
