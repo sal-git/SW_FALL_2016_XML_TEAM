@@ -10,9 +10,9 @@
    organization of databases. Database management systems and their features, querying databases,
    distributed databases, and data compression.
 	</Description>
-	<Credit-hours>3.00</Credit-hours>
-	<Lecture-hours>3.00</Lecture-hours>
-	<Lab-hours>0.00</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
@@ -21,11 +21,10 @@
 	</Prerequisite>
 	<Co-requisite><item>None</item>
 	</Co-requisite>
-	<Legacy-number>N/A</Legacy-number>
+	<Legacy-number>None</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
-	<Restrictions1>
-	</Restrictions1>
-	<Restrictions2> 
-	</Restrictions2>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+		<Attributes>Course Attributes: </Attributes>
 	<Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
