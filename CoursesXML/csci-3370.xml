@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Divide>Technical_Elective</Divide>
+<Divide>Technical_Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>3370 </Number>
@@ -8,19 +8,20 @@
 <Description>
 This is a project based course in which programmers and designers collaborate to create a video game. The course investigates theory and practice of developing computer games from a variety of perspectives. 
 </Description>
-<Credit-hours>3.000</Credit-hours>
-<Lecture-hours>3.000</Lecture-hours>
-<Lab-hours>0.000</Lab-hours>
+<Credit-hours>3.000 Credit hours</Credit-hours>
+<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+<Lab-hours>0.000 Lab hours</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
  <Prerequisite>
-  <item>CSCI-3333 or CMPE-3333</item>
-  <item>CSCI-3326 or CMPE 3326 or CSCI-3327 or CMPE 3327 or CSCI-3328 or CMPE-3328 or consent of instructor</item>
+  <item>CSCI-3333/CMPE-3333</item>
+  <item>CSCI-3326/CMPE 3326, CSCI-3327/CMPE 3327, CSCI-3328/CMPE-3328 or consent of instructor</item>
  </Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
-<Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
-<Legacy-number>N/A</Legacy-number>
+<Legacy-number>None</Legacy-number>
 <Cross-listed>N/A</Cross-listed>
-  <Restrictions1></Restrictions1>
-  <Restrictions2></Restrictions2>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
+<Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
