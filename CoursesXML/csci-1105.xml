@@ -14,7 +14,7 @@
 	</Description>
 	<Credit-hours>1.000 Credit hours</Credit-hours>
 	<Lecture-hours>1.000 Lecture hours</Lecture-hours>
-	<Lab-hours></Lab-hours>
+	<Lab-hours>0.000</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite><item>None</item></Prerequisite>
