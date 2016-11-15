@@ -7,15 +7,14 @@
   <Name>Software Engineering II</Name>
   <Description>
     The course will cover the analysis of requirements and software architecture with a major
-    emphasis on object design, implementation, testing and validation, maintenance and software
-    reengineering. Methods for evaluating software for correctness, and reliability, system testing
+    emphasis on object design, implementation, testing and validation, maintenance and software engineering. Methods for evaluating software for correctness, and reliability, system testing
     techniques, testing tools and limitations of testing, Advance Software Engineering topics such
     as Design Patterns, Aspect Oriented Engineering, Interactive Design Methods, and Formal
     Specification and included. Students will work on large group projects.
   </Description>
-  <Credit-hours>3.000</Credit-hours>
-  <Lecture-hours>3.000</Lecture-hours>
-  <Lab-hours>0.000</Lab-hours>
+  <Credit-hours>3.000 Credit hours</Credit-hours>
+  <Lecture-hours>3.000 Lecture hours</Lecture-hours>
+  <Lab-hours>0.000 Lab hours</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
   <Prerequisite>
@@ -36,6 +35,7 @@
   <Restrictions2>
 		  <item>English Language Institute</item>
 	</Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
   <Course-attributes>
 	<item>Degree Elective</item>
 	<item>CS Instruction Fee - HU</item>
