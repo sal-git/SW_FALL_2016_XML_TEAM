@@ -11,17 +11,18 @@
     external sorting are introduced and compared. Computational complexity topics include the class P and NP, NP-completeness 
     and reducibility, NP-completeness proofs, and NP-complete problems.
   </Description>
-  <Credit-hours>3.000</Credit-hours>
-  <Lecture-hours>3.000</Lecture-hours>
-  <Lab-hours>None</Lab-hours>
+  <Credit-hours>3.000 Credit hours</Credit-hours>
+  <Lecture-hours>3.000 Lecture hours</Lecture-hours>
+  <Lab-hours>0.000 Lab hours</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
    <Prerequisite><item>CSCI/CMPE 2380 or CSCI/CMPE 2388</item></Prerequisite>
    <Co-requisite><item>Credit/registration for MATH 2346, CSCI 3310, or MATH 2305</item></Co-requisite>
-   <Legacy-number>N/A</Legacy-number>
+   <Legacy-number>None</Legacy-number>
   <Cross-listed>N/A</Cross-listed>
-  <Restrictions1></Restrictions1>
-  <Restrictions2></Restrictions2>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
   <Course-attributes>
     <item>Degree Elective</item> 
     <item>CS Instruction Fee - HU</item>
