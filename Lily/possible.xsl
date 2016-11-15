@@ -13,15 +13,15 @@
 		<xsl:value-of select="Course/Description"/>
 		<br/>
 		<br/>
-		
-		<xsl:value-of select="Course/Credit-hours"/><xsl:text> Credit Hours</xsl:text>
+		<xsl:value-of select="Course/Credit-hours"/>
 		<br/>
-		<xsl:value-of select="Course/Lecture-hours"/><xsl:text> Lecture Hours</xsl:text>
+		<xsl:value-of select="Course/Lecture-hours"/>
 		<br/>
-		<xsl:value-of select="Course/Lab-hours"/><xsl:text> Lab Hours</xsl:text>
+		<xsl:value-of select="Course/Lab-hours"/>
 		<br/>
+<br/>
+		<xsl:text>Levels: </xsl:text><xsl:value-of select="Course/Level"/>
 		<br/>
-		
 		<xsl:text>Schedule Type: </xsl:text><xsl:value-of select="Course/Schedule-type"/>
 		<br/>
 		<br/>
@@ -82,3 +82,4 @@
 	</html>
 </xsl:template>
 </xsl:stylesheet>
+
