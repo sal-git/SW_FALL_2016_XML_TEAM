@@ -18,11 +18,9 @@
 		<item>CMPE-4345</item>
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
-	<Legacy-number>N/A</Legacy-number>
+	<Legacy-number>None</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
-	<Restrictions1>
-	</Restrictions1>
-	<Restrictions2>
-	</Restrictions2>
-	<Course-attributes><item>None</item></Course-attributes>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Course-attributes></Course-attributes>
 </Course>
