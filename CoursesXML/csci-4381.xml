@@ -24,13 +24,13 @@
 	</Co-requisite>
 	<Legacy-number>COSC-4332</Legacy-number>
 	<Cross-listed>CMPE-4381</Cross-listed> 
-	<Restrictions_Programs></Restrictions_Programs>
-	<Restrictions1></Restrictions1>
-	<Restrictions_Levels></Restrictions_Levels>
-	<Restrictions2></Restrictions2>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
 	<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 	<item>Degree elective</item>
 	<item>CS Instruction Fee - G</item>
 	</Course-attributes>
 </Course>
+
+
