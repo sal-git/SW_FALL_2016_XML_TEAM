@@ -10,9 +10,9 @@
     be on Project Planning Requirements, Specification, and System Desing and includes object design, testing,
     and implementation. Provides the student with the opportunity to work on large projects in a group situation.
   </Description>
-  <Credit-hours>3.000</Credit-hours>
-  <Lecture-hours>3.000</Lecture-hours>
-  <Lab-hours>3.000</Lab-hours>
+  <Credit-hours>3.000 Credit hours</Credit-hours>
+  <Lecture-hours>3.000 Lecture hours</Lecture-hours>
+  <Lab-hours>3.000 Lab hours</Lab-hours>
   <Level>Undergraduate</Level>
   <Schedule-type>Lecture</Schedule-type>
   <Prerequisite>
@@ -33,6 +33,7 @@
   <Restrictions2>
 	<item>English Language Institute</item>
   </Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
   <Course-attributes>
     <item>Degree Elective</item>
     <item>Course fee - Computer Science</item>
