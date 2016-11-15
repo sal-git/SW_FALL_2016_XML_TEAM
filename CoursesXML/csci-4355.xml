@@ -6,9 +6,9 @@
     <Number>4355</Number>
     <Name>Expert Systems</Name>
     <Description>This course covers the theoretical and practical principles of modern expert systems.</Description>
-    <Credit-hours>3.000</Credit-hours>
-    <Lecture-hours>3.000</Lecture-hours>
-    <Lab-hours>0.000</Lab-hours>
+    <Credit-hours>3.000 Credit hours</Credit-hours>
+    <Lecture-hours>3.000 Lecture hours</Lecture-hours>
+    <Lab-hours>0.000 Lab hours</Lab-hours>
     <Level>Undergraduate</Level>
     <Schedule-type>Lecture</Schedule-type>
     <Prerequisite>
