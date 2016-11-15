@@ -8,9 +8,9 @@
 	<Description>
 		An introduction to information technology and computer systems. Specific topics provide an overview of databases, knowledge-based systems, e-commerce, software engineering, software tools, programming, and Internet.
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Masters</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
