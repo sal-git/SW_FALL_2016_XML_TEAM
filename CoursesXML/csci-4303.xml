@@ -15,12 +15,13 @@
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
-		<item>Undergraduate level CSCI 3333 or CMPE 3333 Minimum Grade of D or consent of instructor.</item>
+		<item>Undergraduate level CSCI 3333 or CMPE 3333 with a minimum grade of D or consent of instructor</item>
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
-	<Legacy-number>N/A</Legacy-number>
-	<Cross-listed>N/Ae</Cross-listed>
-	<Restrictions1></Restrictions1>
-	<Restrictions2></Restrictions2>
-	<Course-attributes><item>None</item></Course-attributes>
+	<Legacy-number>None</Legacy-number>
+		<Cross-listed>N/A</Cross-listed>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Course-attributes></Course-attributes>
 </Course>
+
