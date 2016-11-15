@@ -11,12 +11,12 @@ pushdown state machine, Turing machine, halting problem, definition and properti
 formal grammars and their languages as well as theory of computability and complexity
 including the complexity of optimization and approximation problems.
 </Description>
-<Credit-hours>3.00</Credit-hours>
-<Lecture-hours>3.00</Lecture-hours>
-<Lab-hours>0.00</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
-<Prerequisite><item>CSCI-3333 or CMPE-3333 or CSCI-3336</item></Prerequisite>
+<Prerequisite><item>CSCI-3333/CMPE-3333 or CSCI-3336</item></Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
 <Legacy-number>None</Legacy-number>
 <Cross-listed>N/A</Cross-listed>
