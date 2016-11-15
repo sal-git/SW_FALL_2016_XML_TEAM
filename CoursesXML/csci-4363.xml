@@ -9,9 +9,9 @@
 		This course will cover a number of advanced topics in modern data intensive systems. Topics may include 
 		non-relational databases (nosql), spatial databases and data warehousing.
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
