@@ -9,9 +9,9 @@
 		Presents principles and practice of information communication between user and system. The course examines 
 		results of past research, as well as evolving trends in interface design and implementation.
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
@@ -32,5 +32,4 @@
 	<item>CS Instruction Fee - G</item>
 	</Course-attributes>
 </Course>
-
 
