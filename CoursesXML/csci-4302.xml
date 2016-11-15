@@ -11,16 +11,16 @@
 		applications. Students will have the opportunity to learn programming techniques for integrating video, sound, animation
 		and graphics for multimedia systems. 
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
-		<item>Undergraduate level CSCI 3333 or CMPE 3333 with a minimum grade of D or consent of instructor.</item>
+		<item>Undergraduate level CSCI 3333/CMPE 3333 with a minimum grade of D or consent of instructor.</item>
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
-	<Legacy-number>N/A</Legacy-number>
+	<Legacy-number>None</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
 	<Restrictions1>
 		<item>dnu-MED in Educational Admin</item>
