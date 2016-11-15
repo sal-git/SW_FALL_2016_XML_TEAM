@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Divide>Computer_Science_Core</Divide>
 <Course>
+<Divide>Computer_Science_Core</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>2380</Number>
 <Name>Computer Science II</Name>
 <Description> A second programming course includes problem solving by structured design; provides an introduction to elementary data structures, including linked lists, stacks, queues, trees and graphs, and advanced programming techniques, including recursion, sorting and searching.</Description>
-<Credit-hours>3.000</Credit-hours>
-<Lecture-hours>3.000</Lecture-hours>
-<Lab-hours>0.000</Lab-hours>
+<Credit-hours>3.000 Credit hours</Credit-hours>
+<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+<Lab-hours>0.000 Lab hours</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
 <Prerequisite>
-<item>CSCI-1370 or CMPE-1370</item>
-<item>CSCI-1378 or CMPE-1378</item>
-<item>CSCI-1380</item>
-<item>CSCI-1387</item>
-<item>consent of instructor</item>
+<item>CSCI-1370/CMPE-1370, CSCI-1378/CMPE-1378 or consent of instructor</item>
  </Prerequisite>
 <Co-requisite><item>None</item></Co-requisite>
 <Legacy-number>COSC-2336</Legacy-number>
@@ -29,6 +25,7 @@
 	<Restrictions2> 
   <item>English Language Institute</item>
 	</Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
 <Course-attributes>
 	<item>Degree Elective</item>
 	<item>CS Instruction Fee - LU</item>
