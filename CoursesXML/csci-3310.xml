@@ -11,9 +11,9 @@
 		groups, graphs, propositional and predicate calculus, and permutations and combinations. Students will be expected 
 		to develop simple proofs for problems drawn primarily from computer science and applied mathematics.
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
@@ -23,7 +23,6 @@
  	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>COSC 2310</Legacy-number>
 	<Cross-listed>N/A</Cross-listed>
-	<Course-attributes></Course-attributes>
 		<Restrictions1>
 	  		<item>dnu-MED in Educational Admin</item>
 	  		<item>MPA in Public Administration</item>
@@ -32,4 +31,5 @@
 		<Restrictions2> 
 	  		<item>English Language Institute</item>
 		</Restrictions2>
+	<Course-attributes></Course-attributes>
 </Course>
