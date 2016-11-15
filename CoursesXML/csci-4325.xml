@@ -16,8 +16,10 @@ including the complexity of optimization and approximation problems.
 <Lab-hours>0.00</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
+<Prerequisite><item>CSCI-3333 or CMPE-3333 or CSCI-3336</item></Prerequisite>
+  <Co-requisite><item>None</item></Co-requisite>
+<Legacy-number>None</Legacy-number>
 <Cross-listed>N/A</Cross-listed>
-<Legacy>N/A</Legacy>
 <Restrictions1>
   <item>dnu-MED in Educational Admin</item> 
   <item>MPA in Public Administration Bus.</item> 
@@ -26,7 +28,6 @@ including the complexity of optimization and approximation problems.
 <Restrictions2>
     <item>English Language Institute</item>  
 </Restrictions2>
-  <Prerequisite><item>CSCI-3333 or CMPE-3333 or CSCI-3336</item></Prerequisite>
-  <Co-requisite><item>None</item></Co-requisite>
+<Attributes>Course Attributes: </Attributes>
 <Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
