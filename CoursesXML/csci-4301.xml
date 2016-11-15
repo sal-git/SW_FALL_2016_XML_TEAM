@@ -3,7 +3,7 @@
 	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
-	<Number><4301</Number>
+	<Number>4301</Number>
 	<Name>Digital Image Processing</Name>
 	<Description>
 		The course presents fundamental concepts and applications of digital image processing. Topics include basic 
@@ -20,7 +20,7 @@
 		<Co-requisite><item>None</item></Co-requisite>
 		<Legacy-number>N/A</Legacy-number>
 	<Cross-listed>
-	<item>CMPE-4301 A student may receive credit in only one course.</item>
+	<item>CMPE-4301 (A student may receive credit in only one course)</item>
 	</Cross-listed>
 	<Restrictions1>
 		<item>dnu-MED in Educational Admin</item>
