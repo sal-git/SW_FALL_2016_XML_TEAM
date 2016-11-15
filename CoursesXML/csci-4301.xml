@@ -15,10 +15,10 @@
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
-		<item>Undergraduate level CSCI 3333 or CMPE 3333 Minimum Grade of D</item>
+		<item>Undergraduate level CSCI 3333 or CMPE 3333 with a minimum grade of D</item>
 	</Prerequisite>
 		<Co-requisite><item>None</item></Co-requisite>
-		<Legacy-number>N/A</Legacy-number>
+		<Legacy-number>None</Legacy-number>
 	<Cross-listed>
 	<item>CMPE-4301 (A student may receive credit in only one course)</item>
 	</Cross-listed>
@@ -30,7 +30,9 @@
 	<Restrictions2>
 		<item>English Language Institute</item>
 	</Restrictions2>
+<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
+
