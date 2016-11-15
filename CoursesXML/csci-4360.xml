@@ -22,17 +22,15 @@
      <Co-requisite>
     <item>None</item>
   </Co-requisite>
-  <Legacy-number>N/A</Legacy-number>
+  <Legacy-number>None</Legacy-number>
   <Cross-listed>N/A</Cross-listed>
-  <Restrictions_Programs>May not be enrolled in: </Restrictions_Programs>
   <Restrictions1>
 	  <item>dnu-MED in Educational Admin</item>
 	  <item>MPA in Public Administration</item>
 	  <item>Bus. Admin -Accelerated online</item>
 	  <item>English Language Institute</item>
 	</Restrictions1>
-  <Restrictions_Levels></Restrictions_Levels>
-  <Restrictions2></Restrictions2>
+  <Restrictions2><item>None</item></Restrictions2>
   <Attributes>Course Attributes:</Attributes>
   <Course-attributes>
 	<item>Degree Elective</item>
