@@ -8,9 +8,9 @@
 	<Description>
 		In-depth analysis of computing algorithms and data structures for implementation in the context of software engineering design using structured programming languages.
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Masters</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
@@ -31,3 +31,4 @@
 	<item>CS Instruction Fee - G</item>
 	</Course-attributes>
 </Course>
+
