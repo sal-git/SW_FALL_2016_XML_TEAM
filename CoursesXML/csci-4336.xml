@@ -3,13 +3,13 @@
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4336</Number>
-	<Name>Parallel &amp; Distributed Comp</Name>
+	<Name>Parallel and Distributed Comp</Name>
 	<Description>
 	Presents principles and practices of parallel and distributed computing. Topics include parallel and distributed computation models and architectures; design, analysis and implementation of parallel algorithms; and methods of parallel and distributed programming. 
 	</Description>
-	<Credit-hours>3.000</Credit-hours>
-	<Lecture-hours>3.000</Lecture-hours>
-	<Lab-hours>0.000</Lab-hours>
+	<Credit-hours>3.000 Credit Hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture Hours</Lecture-hours>
+	<Lab-hours>0.000 Lecture hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
 	<Prerequisite>
@@ -18,7 +18,7 @@
 	<item>CMPE-4380</item>
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
-	<Legacy-number>N/A</Legacy-number>
+	<Legacy-number>None</Legacy-number>
 	<Cross-listed>CMPE-4336</Cross-listed>
 	<Restrictions1>
 		<item>dnu-MED in Educational Admin</item>
@@ -28,6 +28,7 @@
 	<Restrictions2>
 		<item>English Language Institute</item>
 	</Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
