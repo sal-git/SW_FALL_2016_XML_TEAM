@@ -8,20 +8,17 @@
 <Description>
 Students will have the opportunity to conduct faculty-sponsored research in the area of mutual interest resulting in oral and written presentation of their work to other students and faculty. May be repeated up to 6 credit hours. Up to three credit hours can be used to meet CSCI degree requirements. Cross-listed with CMPE 4185.
 </Description>
-<Credit-hours>1.000</Credit-hours>
-<Other-hours>1.000</Other-hours>
-<Lab-hours>0.000</Lab-hours>
+<Credit-hours>1.000 Credit Hours</Credit-hours>
+<Lecture-hours>1.000 Lecture Hours</Lecture-hours>
+<Lab-hours></Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Independent Study</Schedule-type>
   <Prerequisite><item>Consent of instructor</item></Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
-  <Course-attributes><item>Exempt from 3peat processing</item><item>CS Instruction Fee - HU</item></Course-attributes>
-   <Legacy-number>N/A</Legacy-number>
-  <Cross-listed>
-    N/A
-  </Cross-listed>
-  <Restrictions1>
-	</Restrictions1>
-  <Restrictions2>
-	</Restrictions2>
+   <Legacy-number>None</Legacy-number>
+  <Cross-listed>N/A</Cross-listed>
+  <Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
+	  <Course-attributes><item>Exempt from 3peat processing</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
