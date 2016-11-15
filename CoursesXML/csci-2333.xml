@@ -7,16 +7,13 @@
 <Name>Computer Org and Assembly Lang</Name>
 <Description>An introduction to computer organization, use of assembly language programming, basic instruction sets, arithmetic and logical operations, addressing modes and macro definition. Several computer programming projects are included.
 </Description>
-<Credit-hours>3.000</Credit-hours>
-<Lecture-hours>3.000</Lecture-hours>
-<Lab-hours>0.000</Lab-hours>
+<Credit-hours>3.000 Credit hours</Credit-hours>
+<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+<Lab-hours>0.000 Lab hours</Lab-hours>
 <Level>Undergraduate</Level>
 <Schedule-type>Lecture</Schedule-type>
 <Prerequisite>
-  <item>CSCI-1370 or CMPE-1370</item>
-  <item>CSCI-1378 or CMPE-1378</item>
-  <item>CSCI 1380</item>
-  <item>CSCI 1387</item>
+  <item>CSCI-1370/CMPE-1370 or CSCI-1378/CMPE-1378</item>
 </Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
 <Legacy-number>COSC-2325</Legacy-number>
@@ -29,8 +26,10 @@
 <Restrictions2> 
   	<item>English Language Institute</item>
 </Restrictions2>
+	<Attributes>Course Attributes: </Attributes>
 <Course-attributes>
 	<item>Degree Elective</item> 
 	<item>CS Instruction Fee - LU</item>
 </Course-attributes>
 </Course>
+
