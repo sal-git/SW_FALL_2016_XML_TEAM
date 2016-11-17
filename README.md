@@ -3,11 +3,13 @@
 Final packages that will be produced from this repostiory will be XMLMerge, XML2HTML, HTML2PDF and XSL style sheets. 
 
 - XMLMerge
-  XMLMerge is a class that will contain methods to combine XML files and a method to grab whole directores and merge every XML within. 
+  is a class that will contain methods to combine XML files and a method to grab whole directores and merge every XML within. 
 - HTML2PDF
-  HTML2PDF is a class that will contain methods to convert HTML files to PDF format. 
+  is a class that will contain methods to convert HTML files to PDF format. 
 - XML2HTML
-  XML2HTML is a class that will contain methods to convert XML files to HTML format. 
+  is a class that will contain methods to convert XML files to HTML format. 
+  
+  
   
 # Example
 
@@ -24,9 +26,13 @@ mergeMultipleXMLDocsFromDataBase(String path, String jointXMLRootNodem, String o
 Will return an xml file from a specified directory and all sister directories. 
 
 
+
+
 # Installation
 
 Place Converter package within your project.
+
+
 
 # Contributors
 - Francisco
@@ -34,6 +40,8 @@ Place Converter package within your project.
 - Lily
 - Victor
 - Stephen
+
+
 
 # License
 
