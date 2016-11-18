@@ -25,7 +25,7 @@ import org.w3c.dom.Node;
  */
 public class Merge {
 
-    public static void mergeMultipleXMLDocs(List<String> list, String jointXmlRootNode, String outName) {
+    public static void mergeMultipleXMLDocs(List<File> list, String jointXmlRootNode, String outName) {
         File in;
 
         //String xmlFileName;
@@ -46,8 +46,8 @@ public class Merge {
             mergedDoc.appendChild(mainRootElement);
 
             //Get Top Level Node
-            for (String inFile : list) {
-                in = new File(inFile);
+            for (File inFile : list) {
+                in = new File(inFile.getAbsolutePath());
                 Document current_doc1 = dBuilder.parse(in);
                 Node n = mergedDoc.importNode(current_doc1.getFirstChild(), true);
                 mainRootElement.appendChild(n);

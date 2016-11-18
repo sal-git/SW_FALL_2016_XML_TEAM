@@ -31,7 +31,11 @@ import javafx.stage.Stage;
  */
 public class POSPrototypeDriver extends Application {
 
-    List<String> listOfFiles = new ArrayList<>();
+//    List<String> listOfAllFiles = new ArrayList<>();
+//    List<String> listOfWantedFiles = new ArrayList<>();
+    List<File> listOfAllFiles = new ArrayList<>();
+    List<File> listOfWantedFiles;
+
     HBox hbox = new HBox(10);
     Button btn = new Button();
     Button merge = new Button();
@@ -50,7 +54,7 @@ public class POSPrototypeDriver extends Application {
         root.setPadding(new Insets(30, 15, 30, 15));
         root.setCenter(hbox);
 
-        Scene scene = new Scene(root, 300, 80);
+        Scene scene = new Scene(root, 1600, 800);
 
         primaryStage.setTitle("Merger");
         primaryStage.setScene(scene);
@@ -65,50 +69,69 @@ public class POSPrototypeDriver extends Application {
     }
 
     public void merge() {
-        Merge.mergeMultipleXMLDocs(listOfFiles, "POS", "POS1.xml");
+        Merge.mergeMultipleXMLDocs(listOfWantedFiles, "POS", "XML/COURSES/POS_XML.xml");
 
-        XML2HTML xml2htmlObject = new XML2HTML("POS1.xml", "franPOS.xsl", "output.html");
+        XML2HTML xml2htmlObject = new XML2HTML("POS_XML.xml", "STYLES/XSL/POS_XSL.xsl", "TEMP/output2.html");
         xml2htmlObject.convert2Html(xml2htmlObject.getXmlFileName(), xml2htmlObject.getXslFileName(), xml2htmlObject.getHtmlFileName());
     }
 
-    public void generateFiles() {
-        File folder = new File("C:/Users/Germex/Documents/NetBeansProjects/POSPrototypeDriver/CoursesXML/");
-        listOfFiles = new ArrayList<String>(Arrays.asList(folder.list()));
+//    /**
+//     * Generates files in all directories
+//     */
+//    public void generateFiles() {
+//        File folder = new File("FILE:///../XML/COURSES/");
+//        listOfAllFiles = new ArrayList<>(Arrays.asList(folder.list()));
+//
+//        for (int i = 0; i < listOfAllFiles.size(); i++) {
+//
+//            if (listOfAllFiles.get(i).) {
+//                if (listOfAllFiles.get(i).charAt(9) != '-' || listOfAllFiles.get(i).charAt(0) == 'P') {
+////                listOfAllFiles.set(i, "Courses/" + listOfAllFiles.get(i));
+//                    listOfWantedFiles.add(listOfAllFiles.get(i));
+//                }
+//            }
+//
+//        }
+//    }
+    
+    
+    public void generateFiles(String directoryName, List<File> files) {
+        File directory = new File(directoryName);
 
-        for (int i = 0; i < listOfFiles.size(); i++) {
-            listOfFiles.set(i, "CoursesXML/" + listOfFiles.get(i));
-            out.println(listOfFiles.get(i));
+        // get all the files from a directory
+        File[] fList = directory.listFiles();
+        for (File file : fList) {
+            if (file.isFile()) {
+                
+                if (file.getName().charAt(0) != 'P'){
+               
+                    files.add(file);
+                }
+                
+            } else if (file.isDirectory()) {
+                generateFiles(file.getAbsolutePath(), files);
+            }
         }
     }
 
     private void configureControls() {
 
         btn.setText("Get Files");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
-
-            @Override
-            public void handle(ActionEvent event) {
-                generateFiles();
-
-            }
+        btn.setOnAction((ActionEvent event) -> {
+            generateFiles("File:///../XML/COURSES/", listOfAllFiles);
         });
 
         merge.setText("Merge them");
-        merge.setOnAction(new EventHandler<ActionEvent>() {
-
-            @Override
-            public void handle(ActionEvent event) {
-                merge();
-            }
+        merge.setOnAction((ActionEvent event) -> {
+            merge();
         });
 
-        
         hbox.getChildren().addAll(btn, merge);
     }
 
     private void configureWebView() throws MalformedURLException {
-        myBrowser = new MyBrowser("C:/Users/Germex/Documents/NetBeansProjects/POSPrototypeDriver/output.html");
-        
+        myBrowser = new MyBrowser("File:///../output.html");
+
 //        myBrowser = new MyBrowser();
         root.setRight(myBrowser);
         root.setLeft(myBrowser2);
@@ -134,7 +157,6 @@ class MyBrowser extends Region {
         webEngine.load(url.toExternalForm());
         getChildren().add(webView);
 
-        
     }
 
 }
