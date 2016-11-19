@@ -1,25 +1,50 @@
 # SW_FALL_2016_TEAM_2
 
-MQ's Software Engineering XML team.
+Final packages that will be produced from this repostiory will be XMLMerge, XML2HTML, HTML2PDF and XSL style sheets. 
 
-# TEAM
+- XMLMerge
+  is a class that will contain methods to combine XML files and a method to grab whole directores and merge every XML within. 
+- HTML2PDF
+  is a class that will contain methods to convert HTML files to PDF format. 
+- XML2HTML
+  is a class that will contain methods to convert XML files to HTML format. 
+  
+  
+  
+# Example
+
+For XMLMerge: 
+
+``` 
+mergeMultipleXMLDocs(ArrayList<String> list, String jointXmlRootNode, String outName, String path) 
+```
+Will merge multiple XML files and create one XML file with the desired root element tag, as well as provide the name of the file and optional path to save said file. 
+
+```
+mergeMultipleXMLDocsFromDataBase(String path, String jointXMLRootNodem, String outName, String path)
+```
+Will return an xml file from a specified directory and all sister directories. 
+
+
+
+
+# Installation
+
+Place Converter package within your project.
+
+
+
+# Contributors
 - Francisco
 - Leo
 - Lily
 - Victor
 - Stephen
 
-# Objectives (Tasks)
-
-- Convert XML 2 HTML (lily)
-- Convert HTML 2 PDF (francisco)
-- Create XML files (steve)
-- Combine XML files (leo)
-- Combine PDF files (victor)
-
-*Jobs may be switched or shared and new jobs may be added (...count on it)*
 
 
-# UML Class designs
+# License
 
-//TODO Add UML diagrams 
+The MIT License
+
+
