@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+	<Divide>Laboratory</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CHEM</Prefix>
+	<Number>1112</Number>
+	<Name>General Chemistry II Lab</Name>
+	<Description>
+		An introduction to basic laboratory techniques using experiments to understand
+chemical concepts of reactions, stoichiometry and titrations
+	</Description>
+	<Credit-hours>1.000 Credit hours</Credit-hours>
+	<Lecture-hours>0.000 Lecture hours</Lecture-hours>
+	<Lab-hours>1.000</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Laboratory</Schedule-type>
+	<Prerequisite><item>CHEM-1312</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>N/A</Cross-listed>
+	<Restrictions1><item>None</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Course-attributes><item>Core Int/Exp Lrng-090</item><item>Lab fee - Chemistry</item></Course-attributes>
+</Course>
