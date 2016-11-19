@@ -56,21 +56,9 @@
 									<li><b>Mathematics - 3 hours</b></li>
 
 									<li>
-										<!-- <ul style="list-style-type:none">
+										<ul style="list-style-type:none">
 											<li>MATH 2413 Calculus I (or MATH 2487 Honors) three-hour lecture</li>
-										</ul> -->
-										<xsl:for-each select="POS/Course">
-											<ul style="list-style-type:none">
-												<li>
-													<xsl:if test="Divide[text()='Mathematics']">
-														<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
-														<a href="file:///../XML/COURSES/{$link}/{$link}.xml">
-															<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
-														</a>
-													</xsl:if>
-												</li>
-											</ul>
-										</xsl:for-each>
+										</ul>
 									</li>
 								</ul>
 							</li>
@@ -86,22 +74,10 @@
 											<li><i>Choose one pair:</i></li>
 
 											<li>
-												<!-- <ul style="list-style-type:none">
+												<ul style="list-style-type:none">
 													<li>BIOL 1406 General Biology I (or BIOL 1487 Honors) three-hour lecture</li>
 													<li>BIOL 1407 General Biology II (or BIOL 1488 Honors) three-hour lecture</li>
-												</ul> -->
-												<xsl:for-each select="POS/Course">
-													<ul style="list-style-type:none">
-														<li>
-															<xsl:if test="Divide[text()='Life']">
-																<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
-																<a href="file:///../XML/COURSES/{$link}/{$link}.xml">
-																	<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
-																</a>
-															</xsl:if>
-														</li>
-													</ul>
-												</xsl:for-each>
+												</ul>
 											</li>
 										</ul>
 									</li>
@@ -114,23 +90,9 @@
 								<ul style="list-style-type:none">
 									<li><b>Language, Philosophy, and Culture - 3 hours</b></li>
 
-									<!-- <li>
+									<li>
 										<ul style="list-style-type:none">
 											<li>PHIL 2326 Professional Ethics: Engineering</li>
-										</ul> -->
-										<ul>
-											<xsl:for-each select="POS/Course">
-												<ul style="list-style-type:none">
-													<li>
-														<xsl:if test="Divide[text()='Language']">
-															<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
-															<a href="file:///../XML/COURSES/{$link}/{$link}.xml">
-																<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
-															</a>
-														</xsl:if>
-													</li>
-												</ul>
-											</xsl:for-each>
 										</ul>
 									</li>
 								</ul>
@@ -147,22 +109,8 @@
 											<li><i>Choose any course from Humanities, except for Professional Ethics, and complete:</i></li>
 
 											<li>
-												<!-- <ul style="list-style-type:none">
+												<ul style="list-style-type:none">
 													<li>CSCI/CMPE 1370 Engineering Computer Science I (or CSCI/CMPE 1378 Honors)</li>
-												</ul> -->
-												<ul>
-													<xsl:for-each select="POS/Course">
-														<ul style="list-style-type:none">
-															<li>
-																<xsl:if test="Divide[text()='Intergrative']">
-																	<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
-																	<a href="file:///../XML/COURSES/{$link}/{$link}.xml">
-																		<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
-																	</a>
-																</xsl:if>
-															</li>
-														</ul>
-													</xsl:for-each>
 												</ul>
 											</li>
 										</ul>

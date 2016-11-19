@@ -71,7 +71,7 @@ public class POSPrototypeDriver extends Application {
     public void merge() {
         Merge.mergeMultipleXMLDocs(listOfWantedFiles, "POS", "XML/COURSES/POS_XML.xml");
 
-        XML2HTML xml2htmlObject = new XML2HTML("POS_XML.xml", "STYLES/XSL/POS_XSL2.xsl", "TEMP/output2.html");
+        XML2HTML xml2htmlObject = new XML2HTML("POS_XML.xml", "STYLES/XSL/POS_XSL.xsl", "TEMP/output2.html");
         xml2htmlObject.convert2Html(xml2htmlObject.getXmlFileName(), xml2htmlObject.getXslFileName(), xml2htmlObject.getHtmlFileName());
     }
 
