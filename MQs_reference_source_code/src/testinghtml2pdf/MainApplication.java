@@ -23,32 +23,32 @@ public class MainApplication {
     public static void main(String[] args) throws IOException {
 
         // input files:
-        String xmlFile  = "JobXml.xml";
-        String xslFile  = "JobXsl.xsl";
+        String xmlFile  = "csci-3370.xml";
+        String xslFile  = "course.xsl";
        
         // Output Files
-        String htmlFile = "JobHtml.htm";
+        String htmlFile = "output.htm";
         String pdfFile  = "Job.pdf";
         
-        // Create XML document; you should have the xsl designed for it as well
-        XMLGenerator jobXML = new XMLGenerator(xmlFile);
-        jobXML.jobXMLGenerator(null);
+//        // Create XML document; you should have the xsl designed for it as well
+//        XMLGenerator jobXML = new XMLGenerator(xmlFile);
+//        jobXML.jobXMLGenerator(null);
 
         // Testing the XML 2 HTML Conversion
         XML2HTML xml2htmlObject = new XML2HTML(xmlFile, xslFile, htmlFile);
         xml2htmlObject.convert2Html(xml2htmlObject.getXmlFileName(), xml2htmlObject.getXslFileName(), xml2htmlObject.getHtmlFileName());
 
-        // Testing the HTML 2 PDF Conversion
-        HTML2PDF html2pdfObject = new HTML2PDF(xml2htmlObject.getHtmlFileName(), pdfFile);
-        html2pdfObject.convert2Pdf(html2pdfObject.getHtmlFileName(), html2pdfObject.getPdfFileName());
+//        // Testing the HTML 2 PDF Conversion
+//        HTML2PDF html2pdfObject = new HTML2PDF(xml2htmlObject.getHtmlFileName(), pdfFile);
+//        html2pdfObject.convert2Pdf(html2pdfObject.getHtmlFileName(), html2pdfObject.getPdfFileName());
        
-        // Testing combine xml files into another xml
-          List<String> list = new ArrayList<>();
-          //list is hard coded...
-          list.add("Job.xml");
-          list.add("Faculty.xml");
-          //mergeMultipleXMLDocs(list of files,root node, output file);
-          mergeMultipleXMLDocs(list,"Resume-2016", "mkq-job-faculty.xml");
+//        // Testing combine xml files into another xml
+//          List<String> list = new ArrayList<>();
+//          //list is hard coded...
+//          list.add("Job.xml");
+//          list.add("Faculty.xml");
+//          //mergeMultipleXMLDocs(list of files,root node, output file);
+//          mergeMultipleXMLDocs(list,"Resume-2016", "mkq-job-faculty.xml");
 
     }
 }
