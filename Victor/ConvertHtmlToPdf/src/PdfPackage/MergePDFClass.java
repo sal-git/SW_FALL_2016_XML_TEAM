@@ -76,11 +76,8 @@ public class MergePDFClass {
                 }
             }
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (DocumentException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
         }
         finally
         {
