@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Divide>Computer_Science_Core</Divide>
+<Divide>Computer Science Core</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4325</Number>
@@ -19,15 +19,14 @@ including the complexity of optimization and approximation problems.
 <Prerequisite><item>CSCI-3333/CMPE-3333 or CSCI-3336</item></Prerequisite>
   <Co-requisite><item>None</item></Co-requisite>
 <Legacy-number>None</Legacy-number>
-<Cross-listed>N/A</Cross-listed>
+<Cross-listed>None</Cross-listed>
 <Restrictions1>
-  <item>dnu-MED in Educational Admin</item> 
-  <item>MPA in Public Administration Bus.</item> 
+  <item>dnu-MED in Educational Admin</item>
+  <item>MPA in Public Administration Bus.</item>
   <item>Admin -Accelerated online.</item>
 </Restrictions1>
 <Restrictions2>
-    <item>English Language Institute</item>  
+    <item>English Language Institute</item>
 </Restrictions2>
-<Attributes>Course Attributes: </Attributes>
 <Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>

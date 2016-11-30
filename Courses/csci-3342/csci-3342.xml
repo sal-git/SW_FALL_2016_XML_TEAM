@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3342</Number>
@@ -38,7 +38,6 @@
   <Restrictions2>
      <item>May not be enrolled in English Language Institute </item>
   </Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
   <Course-attributes>
     <item>Degree Elective </item>
     <item>CS Instruction Fee – HU </item>

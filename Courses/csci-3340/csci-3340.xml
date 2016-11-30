@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Divide>Computer_Science_Core</Divide>
+  <Divide>Computer Science Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3340</Number>
@@ -33,7 +33,6 @@
   <Restrictions2>
 	<item>English Language Institute</item>
   </Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
   <Course-attributes>
     <item>Degree Elective</item>
     <item>Course fee - Computer Science</item>

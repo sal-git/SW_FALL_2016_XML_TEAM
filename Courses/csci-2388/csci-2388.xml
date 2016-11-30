@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Divide>Computer_Science_Core_HON</Divide>
+<Divide>Computer Science Core HON</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>2388</Number>
@@ -24,12 +24,11 @@ A second programming course includes problem solving by structured design. Provi
 	<Restrictions1>
   		<item>dnu-MED in Educational Admin</item>
   		<item>MPA in Public Administration</item>
-  		<item>Bus. Admin -Accelerated online.</item> 
+  		<item>Bus. Admin -Accelerated online.</item>
 	</Restrictions1>
-	<Restrictions2> 
+	<Restrictions2>
   		<item>English Language Institute</item>
 	</Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
 		<Course-attributes>
 		<item>Degree Elective</item>
 		<item>CS Instruction Fee -LU</item>

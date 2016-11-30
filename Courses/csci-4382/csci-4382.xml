@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4382</Number>
 	<Name>Computer Visualization</Name>
 	<Description>
-		Focuses on design and implementation of computer graphics systems to provide visual representation of 
-		large data sets. Presents current theory and practice of computer visualization systems and advanced 
+		Focuses on design and implementation of computer graphics systems to provide visual representation of
+		large data sets. Presents current theory and practice of computer visualization systems and advanced
 		display techniques.
 	</Description>
 	<Credit-hours>3.000</Credit-hours>
@@ -24,10 +24,9 @@
 		<item>None</item>
 	</Co-requisite>
 	<Legacy-number>None</Legacy-number>
-	<Cross-listed>CMPE-4382</Cross-listed> 
+	<Cross-listed>CMPE-4382</Cross-listed>
 	<Restrictions1><item>None</item></Restrictions1>
 	<Restrictions2><item>None</item></Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 	<item>Degree elective</item>
 	<item>CS Instruction Fee - G</item>

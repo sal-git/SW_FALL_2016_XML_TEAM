@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4301</Number>
 	<Name>Digital Image Processing</Name>
 	<Description>
-		The course presents fundamental concepts and applications of digital image processing. Topics include basic 
+		The course presents fundamental concepts and applications of digital image processing. Topics include basic
 		color, image perception and transformation, image enhancement and compression, and image analysis, and computer vision.
 	</Description>
 	<Credit-hours>3.000 Credit hours</Credit-hours>
@@ -30,9 +30,7 @@
 	<Restrictions2>
 		<item>English Language Institute</item>
 	</Restrictions2>
-<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>
 </Course>
-
