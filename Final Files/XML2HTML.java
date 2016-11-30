@@ -34,9 +34,6 @@ public class XML2HTML {
     private int eliminateFileExtenz;
 
     //Constructor 
-    /**
-     *
-     */
     protected XML2HTML() {
         // Exists only to defeat instantiation.
     }
@@ -90,8 +87,8 @@ public class XML2HTML {
     /**
      * Generate HTML files for every XML file in Directory given the type - i.e
      * ABET, Course, Faculty, or Outcomes. Ex: If user wants to only get courses
-     * type = 'course' , if you user wants only ABET, then type = 'ABET'.
-     * 'outcomes' = TYPE
+     * type = 'course' , if you user wants only ABET, then type = 'abet, and
+     * type = 'outcomes' 
      *
      * @param directoryName
      * @param xslFileName
@@ -173,7 +170,6 @@ public class XML2HTML {
 
                     //get only 'ABET' or 'outcomes'
                     if (file.getName().contains(type)) {
-                        System.out.println("here");
                         filesGathered.add(file);
                         //get only courses
                     } else if ("course".equals(type) && file.getName().length() == 13) {
