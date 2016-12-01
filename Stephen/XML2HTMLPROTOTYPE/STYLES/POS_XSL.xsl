@@ -203,7 +203,7 @@
 												<li>
 													<xsl:if test="Divide[text()='Technical_Electives']">
 														<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
-														<a href="XML/COURSES/{$link}/{$link}.xml">
+														<a href="file:///../XML/COURSES/{$link}/{$link}.xml">
 															<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
 														</a>
 													</xsl:if>

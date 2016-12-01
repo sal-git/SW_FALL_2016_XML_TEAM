@@ -74,7 +74,6 @@ public class XML2HTMLTest {
         String xslFileName = "";
         String type = "";
         XML2HTML instance = new XML2HTML();
-        instance.convertDirectory2Html(directoryName, xslFileName, type);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
