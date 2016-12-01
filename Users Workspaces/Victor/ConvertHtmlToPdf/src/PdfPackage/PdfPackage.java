@@ -24,6 +24,7 @@ public class PdfPackage {
      */
     public static void main(String[] args) throws DocumentException, IOException {
         // TODO code application logic here
+        // Input and output files
         String htmlFile1 = "csci-1170.html";
         String pdfFile1 = "1.pdf";
         String htmlFile2 = "csci-1178.html";
@@ -74,9 +75,9 @@ public class PdfPackage {
         html2pdfObject1.convert2Pdf(htmlFile14, pdfFile14);
         html2pdfObject1.convert2Pdf(htmlFile15, pdfFile15);        
                 
-        
+        // Merge PDF objects
         MergePDFClass pdfcom = new MergePDFClass();
-
+        // Add object files to arraylist to merge
         List<String> pdf = new ArrayList<>();
         pdf.add("1.pdf");
         pdf.add("2.pdf");
@@ -94,6 +95,7 @@ public class PdfPackage {
         pdf.add("14.pdf");
         pdf.add("15.pdf");
         
+        //merge all file objects in arraylist to MergePDF.pdf
         pdfcom.combinePDFFiles(pdf, "MergedPDF.pdf");
     }
     

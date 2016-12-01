@@ -26,7 +26,8 @@ public class ConvertHtmlToPdfClass {
         this.htmlFileName = htmlFileName;
         this.pdfFileName = pdfFileName;
     }
-    
+    // method to read an html file and convert to pdf file
+    // requires input html file name and output pdf file name
     String convert2Pdf(String htmlFileName, String pdfFileName) {
         try {
             String url = new File(htmlFileName).toURI().toURL().toString();

@@ -50,7 +50,8 @@ public class MergePDFClass {
         }
     }
     // Using the pdftk utilitiy
-
+    // method to merge pdf files into one
+    // requires arraylist of pdf file objects and output file name
     public static void combinePDFFiles(List<String> list, String outName) throws DocumentException, IOException 
     {
         OutputStream out=null;
