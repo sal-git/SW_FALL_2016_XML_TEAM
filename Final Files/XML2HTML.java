@@ -25,30 +25,15 @@ import javax.xml.transform.stream.StreamSource;
 public class XML2HTML {
 
     //List of files of the given direcotry
-    private ArrayList<File> filesGathered = new ArrayList<>();
+    private static ArrayList<File> filesGathered = new ArrayList<>();
 
     //Single instance of the convert
     private static XML2HTML instance = null;
 
     //remove .xml from file name 
-    private int eliminateFileExtenz;
+    private static int eliminateFileExtenz;
 
-    //Constructor 
-    protected XML2HTML() {
-        // Exists only to defeat instantiation.
-    }
-
-    /**
-     * Get single instance of the converter
-     *
-     * @return
-     */
-    public static XML2HTML getInstance() {
-        if (instance == null) {
-            instance = new XML2HTML();
-        }
-        return instance;
-    }
+    
 
     /**
      * Converts 1 XML to HTML
@@ -57,7 +42,7 @@ public class XML2HTML {
      * @param xslFileName
      * @return
      */
-    public void convert2Html(String xmlFileName, String xslFileName) {
+    public static void convert2Html(String xmlFileName, String xslFileName) {
         try {
             // Obtain transformer object
             TransformerFactory tFactory = TransformerFactory.newInstance();
@@ -94,7 +79,7 @@ public class XML2HTML {
      * @param xslFileName
      * @param type
      */
-    public void convertDirectory2Html(String directoryName, String xslFileName, String type) {
+    public static void convertDirectory2Html(String directoryName, String xslFileName, String type) {
 
         //Get all files and put them into a arraylist
         generateAllFilesInDirectory(directoryName, filesGathered, type);
@@ -157,7 +142,7 @@ public class XML2HTML {
      * @param filesGathered
      * @param type
      */
-    private void generateAllFilesInDirectory(String directoryName, ArrayList<File> filesGathered, String type) {
+    private static void generateAllFilesInDirectory(String directoryName, ArrayList<File> filesGathered, String type) {
 
         try {
             File directory = new File(directoryName);
@@ -191,7 +176,7 @@ public class XML2HTML {
      * Clears list after it is used. Avoids memory leaks and an overly large list
      * from being made and continually added to.
      */
-    private void clearFileList() {
+    private static void clearFileList() {
         filesGathered.clear();
     }
 
