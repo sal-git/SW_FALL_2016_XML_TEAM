@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4303</Number>
 	<Name>Computer Vision</Name>
 	<Description>
-		This course covers the fundamental and advanced ideas of developing computerized procedures to extract 
+		This course covers the fundamental and advanced ideas of developing computerized procedures to extract
 		numeric and symbolic information from images.
 	</Description>
 	<Credit-hours>3.000 Credit hours</Credit-hours>
@@ -19,9 +19,8 @@
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>None</Legacy-number>
-		<Cross-listed>N/A</Cross-listed>
+		<Cross-listed>None</Cross-listed>
 	<Restrictions1><item>None</item></Restrictions1>
 	<Restrictions2><item>None</item></Restrictions2>
-	<Course-attributes></Course-attributes>
+	<Course-attributes><item>None</item></Course-attributes>
 </Course>
-

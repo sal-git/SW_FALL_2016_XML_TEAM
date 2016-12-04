@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>4350</Number>
   <Name>Artificial Intelligence</Name>
   <Description>
-  Study of intelligent machines and machine learning. Includes problem solving and heuristic search, natural language understanding, 
-    game playing, database and expert systems. Artificial Intelligence projects will be implemented using an AI language such as LISP, 
+  Study of intelligent machines and machine learning. Includes problem solving and heuristic search, natural language understanding,
+    game playing, database and expert systems. Artificial Intelligence projects will be implemented using an AI language such as LISP,
     Prolog, C++ or Ada.
   </Description>
   <Credit-hours>3.000 Credit hours</Credit-hours>
@@ -21,7 +21,8 @@
   <Cross-listed>CMPE-4350</Cross-listed>
   <Restrictions1><item>Senior or Junior standing</item></Restrictions1>
   <Restrictions2><item>None</item></Restrictions2>
-  <Attributes>Course Attributes: </Attributes>
-  <Course-attributes><item>Degree Elective</item><item>CS Instruction Fee - HU</item></Course-attributes>
+  <Course-attributes>
+      <item>Degree Elective</item>
+      <item>CS Instruction Fee - HU</item>
+ </Course-attributes>
 </Course>
-

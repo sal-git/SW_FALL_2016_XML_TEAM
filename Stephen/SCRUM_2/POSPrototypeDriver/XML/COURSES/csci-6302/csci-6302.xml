@@ -20,15 +20,12 @@
 		<item>None</item>
 	</Co-requisite>
 	<Legacy-number>None</Legacy-number>
-	<Cross-listed>N/A</Cross-listed>
+	<Cross-listed>None</Cross-listed>
 	<Restrictions1><item>None</item></Restrictions1>
 	<Restrictions2><item>None</item></Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 	<item>Exempt from 3peat processing</item>
 	<item>Exempt/Waive 6 drop process</item>
 	<item>CS Instruction Fee - G</item>
 	</Course-attributes>
 </Course>
-
-

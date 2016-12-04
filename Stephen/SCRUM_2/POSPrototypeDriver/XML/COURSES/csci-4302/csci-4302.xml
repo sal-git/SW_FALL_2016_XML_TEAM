@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4302</Number>
 	<Name>Multimedia Systems</Name>
 	<Description>
-		This course presents the broad field of multimedia systems. Topics include the digital interactive 
-		multimedia, creation of multimedia, and various issues involving technology, design and effectiveness of multimedia 
+		This course presents the broad field of multimedia systems. Topics include the digital interactive
+		multimedia, creation of multimedia, and various issues involving technology, design and effectiveness of multimedia
 		applications. Students will have the opportunity to learn programming techniques for integrating video, sound, animation
-		and graphics for multimedia systems. 
+		and graphics for multimedia systems.
 	</Description>
 	<Credit-hours>3.000 Credit hours</Credit-hours>
 	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
@@ -21,7 +21,7 @@
 	</Prerequisite>
 	<Co-requisite><item>None</item></Co-requisite>
 	<Legacy-number>None</Legacy-number>
-	<Cross-listed>N/A</Cross-listed>
+	<Cross-listed>None</Cross-listed>
 	<Restrictions1>
 		<item>dnu-MED in Educational Admin</item>
 		<item>MPA in Public Administration</item>
@@ -30,7 +30,6 @@
 	<Restrictions2>
 		<item>English Language Institute</item>
 	</Restrictions2>
-<Attributes>Course Attributes: </Attributes>
 	<Course-attributes>
 		<item>Degree Elective</item><item>CS Instruction Fee - HU</item>
 	</Course-attributes>

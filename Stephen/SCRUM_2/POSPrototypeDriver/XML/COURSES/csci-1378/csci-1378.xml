@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Course>
-    <Category>General_Core_Integrative_HON</Category>
+    <Category>General Core Integrative HON</Category>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>1378</Number>
@@ -21,10 +21,9 @@
     <Co-requisite><item>CSCI-1178</item></Co-requisite>
     <Legacy-number>None</Legacy-number>
     <Cross-listed>CMPE 1378</Cross-listed>
-	<Restrictions1><item>None</item></Restrictions1>
-	<Restrictions2><item>None</item></Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
-	<Course-attributes>
-		<item>CS Instruction Fee -LU</item>
+	  <Restrictions1><item>None</item></Restrictions1>
+	  <Restrictions2><item>None</item></Restrictions2>
+	  <Course-attributes>
+		    <item>CS Instruction Fee -LU</item>
     </Course-attributes>
 </Course>

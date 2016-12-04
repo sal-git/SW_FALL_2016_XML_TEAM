@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Course>
-<Divide>Technical_Electives</Divide>
+<Divide>Technical Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4185 </Number>
@@ -19,6 +19,5 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
   <Cross-listed>CMPE 4185</Cross-listed>
   <Restrictions1><item>None</item></Restrictions1>
 	<Restrictions2><item>None</item></Restrictions2>
-	<Attributes>Course Attributes: </Attributes>
 	  <Course-attributes><item>Exempt from 3peat processing</item><item>CS Instruction Fee - HU</item></Course-attributes>
 </Course>
