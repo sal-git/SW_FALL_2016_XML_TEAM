@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
+
 <Course>
   <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
@@ -19,7 +21,6 @@
   <Co-requisite><item>None</item></Co-requisite>
   <Legacy-number>None</Legacy-number>
   <Cross-listed>None</Cross-listed>
-  <Restrictions1><item>None</item></Restrictions1>
-  <Restrictions2><item>None</item></Restrictions2>
+  <Restrictions><item>None</item></Restrictions>
   <Course-attributes><item>None</item></Course-attributes>
 </Course>

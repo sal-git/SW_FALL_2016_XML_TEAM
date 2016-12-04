@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-styleseet type="text/xsl" href="../XML/Course.xsl"?>
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
 <Course>
 	<Divide>Labratory</Divide>
 	<Department>Biology</Department>
@@ -17,12 +17,11 @@
 	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
 	<Lab-hours>3.000</Lab-hours>
 	<Level>Undergraduate</Level>
-	<Schedule-type><item>Lecture</item><item>Laboratory</item></Schedule-type>
-	<Prerequisite><item>None</item></Prerequisite>
-	<Co-requisite><item>None</item></Co-requisite>
+	<Schedule-type>Lecture, Laboratory</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>None</Co-requisite>
 	<Legacy-number>None</Legacy-number>
-	<Cross-listed>N/A</Cross-listed>
-	<Restrictions1><item>None</item></Restrictions1>
-	<Restrictions2><item>None</item></Restrictions2>
-	<Course-attributes><item>Core Life and Phys Sciences-030</item><item>Lab fee - Biology</item></Course-attributes>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>Core Life and Phys Sciences-030, Lab fee - Biology</Course-attributes>
 </Course>

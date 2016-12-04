@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
+
 <Course>
 <Divide>Computer Science Core</Divide>
 <Department>Computer Science</Department>

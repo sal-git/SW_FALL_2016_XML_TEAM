@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-styleseet type="text/xsl" href="../XML/Course.xsl"?>
-
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
 <Course>
 	<Divide>Labratory</Divide>
 	<Department>Biology</Department>

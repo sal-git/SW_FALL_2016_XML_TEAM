@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
+
 <Course>
-	<Divide>Technical Electives</Divide>
+	<Divide>Technical_Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4318</Number>

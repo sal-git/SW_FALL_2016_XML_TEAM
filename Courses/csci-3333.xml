@@ -1,5 +1,4 @@
-<?xml-styleseet type="text/xsl" href="../XML/Course.xsl"?>
-
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
 <Course>
   <Divide>Computer_Science_Core</Divide>
   <Department>Computer Science</Department>
