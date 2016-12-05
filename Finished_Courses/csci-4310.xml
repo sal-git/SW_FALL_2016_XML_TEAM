@@ -12,7 +12,7 @@
 	<Lab-hours>0.000 Lab hours</Lab-hours>
 	<Level>Undergraduate</Level>
 	<Schedule-type>Lecture</Schedule-type>
-	<Prerequisite>CSCI-3333 or consent of instructor</item></Prerequisite>
+	<Prerequisite>CSCI-3333 or consent of instructor</Prerequisite>
 	<Co-requisite>None</Co-requisite>
 	<Legacy-number>None</Legacy-number>
 	<Cross-listed>None</Cross-listed>

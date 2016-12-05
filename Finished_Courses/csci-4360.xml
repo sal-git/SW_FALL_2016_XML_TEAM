@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <Course>
     <Divide>Technical_Electives</Divide>
     <Department>Computer Science</Department>

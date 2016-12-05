@@ -15,7 +15,7 @@
     <Level>Undergraduate</Level>
     <Schedule-type>Lecture</Schedule-type>
     <Prerequisite>
-      Grade of 'C' or better in MATH 1314 or placement in a higher level Math course,
+      Grade of C or better in MATH 1314 or placement in a higher level Math course,
       CSCI-1101,
       Admission to the honors program
     </Prerequisite>
@@ -24,6 +24,6 @@
     <Cross-listed>CMPE 1378</Cross-listed>
 	  <Restrictions>None</Restrictions>
 	  <Course-attributes>
-		    CS Instruction Fee -LU<
+		    CS Instruction Fee -LU
     </Course-attributes>
 </Course>

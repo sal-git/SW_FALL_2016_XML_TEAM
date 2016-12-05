@@ -1,6 +1,6 @@
-<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
-
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-styleseet type="text/xsl" href="../styles/Course.xsl"?>
 <Course>
   <Divide>Technical_Electives</Divide>
   <Department>Computer Science</Department>
@@ -21,7 +21,7 @@
   <Co-requisite>None</Co-requisite>
   <Legacy-number>COSC-4350</Legacy-number>
   <Cross-listed>CMPE-4350</Cross-listed>
-  <Restriction1>Senior or Junior standing</Restrictions>
+  <Restrictions>Senior or Junior standing</Restrictions>
   <Course-attributes>
       Degree Elective,
       CS Instruction Fee - HU
