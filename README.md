@@ -8,23 +8,6 @@ Final packages that will be produced from this repostiory will be XMLMerge, XML2
   is a class that will contain methods to convert HTML files to PDF format. 
 - XML2HTML
   is a class that will contain methods to convert XML files to HTML format. 
-  
-  
-  
-# Example
-
-For XMLMerge: 
-
-``` 
-mergeMultipleXMLDocs(ArrayList<String> list, String jointXmlRootNode, String outName, String path) 
-```
-Will merge multiple XML files and create one XML file with the desired root element tag, as well as provide the name of the file and optional path to save said file. 
-
-```
-mergeMultipleXMLDocsFromDataBase(String path, String jointXMLRootNodem, String outName, String path)
-```
-Will return an xml file from a specified directory and all sister directories. 
-
 
 
 
