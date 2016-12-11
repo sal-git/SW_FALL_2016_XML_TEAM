@@ -24,4 +24,14 @@
 	<Cross-listed>None</Cross-listed>
 	<Restrictions>None</Restrictions>
 	<Course-attributes>Degree Elective, Course fee - Comp Sci, CS Instruction Fee - LU</Course-attributes>
+	<abet>
+		(a) An ability to apply knowledge of computing and mathematics appropriate to
+		the program's student outcomes and to the discipline.
+		(b) An ability to analyze a problem, and identify and define the computing
+		requirements appropriate to its solution.
+		(c) An Ability to design, implement, and evaluate a computer-based system, process,
+		component, or program to meet desired needs.
+		(g) An ability to analyze the local and global impact of computing on individuals,
+		organizations, and society.
+	</abet>
 </Course>
