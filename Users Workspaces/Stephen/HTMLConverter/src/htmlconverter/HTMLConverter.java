@@ -5,7 +5,7 @@
  */
 package htmlconverter;
 
-//import com.lowagie.text.DocumentException;
+import com.lowagie.text.DocumentException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

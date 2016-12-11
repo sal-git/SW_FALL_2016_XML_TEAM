@@ -154,6 +154,10 @@ version="1.0">
 <td class="text-left">Course-attributes</td>
 <td class="text-left"><xsl:value-of select="Course/Course-attributes"/></td>
 </tr>
+<tr>
+<td class="text-left">ABET</td>
+<td class="text-left"><xsl:value-of select="Course/abet"/></td>
+</tr>
 </table>
 
  </center>

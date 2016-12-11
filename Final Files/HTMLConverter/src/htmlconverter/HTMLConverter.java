@@ -22,25 +22,32 @@ public class HTMLConverter {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws DocumentException, IOException {
-        // TODO code application logic here
-//        
-//        XML2HTML.convert2Html("XML/Courses/csci-1170/csci-1170.xml", "STYLES/course.xsl", "TEMP/output.html");
+    public static void main(String[] args) throws IOException {
         
-//        XML2HTML.convertDirectory2Html("XML/Courses", "STYLES/course.xsl", "TEMP/");
+//        Converts one file to HTML (input xml, input xsl, output file)
+//        XML2HTML.convert2Html("XML/Courses/biol-1406.xml", "STYLES/course.xsl", "TEMP/output.html");
         
-        List<String> files = new ArrayList<>();
-        
-        files.add("csci-1101.pdf");
-        files.add("csci-1105.pdf");
-        files.add("csci-1170.pdf");
-        
-        
-        PDFConverter.convert2Pdf("csci-1380.xml", "XML2PDFTEST.pdf");
 
+//        Converts entire directory and outputs each file into another (input directory, input xsl file, output directory)
+//        XML2HTML.convertDirectory2Html("XML/Courses", "STYLES/course.xsl", "TEMP/");
+
+
+//        List<String> files = new ArrayList<>();
+//        
+//        files.add("csci-1101.pdf");
+//        files.add("csci-1105.pdf");
+//        files.add("csci-1170.pdf");
+        
+        
+//        Converts one html file to one pdf file
+//        PDFConverter.convert2Pdf("csci-1380.xml", "XML2PDFTEST.pdf");
+
+//        Converts a list of pdf files into one pdf file
 //        PDFConverter.combinePDFFiles(files, "CombinedPDFFiles.pdf");
 
-//       PDFConverter.combinePDFFiles(currentNode);
+//        Merge files together
+          XMLMerger.mergeFilesFromDirectory("XML/Courses", "POS",  "CMPE-POS.xml");
+          XML2HTML.convert2Html("CMPE-POS.xml", "STYLES/CSCI-POS.xsl", "ComputerSciencePOS.html");
         
     }
     

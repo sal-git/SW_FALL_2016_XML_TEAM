@@ -1,6 +1,239 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <POS>
      <Course>
+	<Divide>Labratory</Divide>
+	<Department>Biology</Department>
+	<Prefix>BIOL</Prefix>
+	<Number>1406</Number>
+	<Name>General Biology I</Name>
+	<Description>
+		A study of the basic principles of Biology. Topics will include biological chemistry,
+		cell structure and function, photosynthesis and respiration, DNA structure and
+		function, mitosis, meiosis, Mendelian genetics, evolution and the structure and
+		function of bacteria, viruses, protozoan, algae, fungi and plants. Credit Restriction:
+		Credit may be received in only one of BIOL 1406 or BIOL 1487.
+	</Description>
+	<Credit-hours>4.000 Credit Hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>3.000</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture, Laboratory</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>None</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>Core Life and Phys Sciences-030, Lab fee - Biology</Course-attributes>
+	<abet>
+		(a) An ability to apply knowledge of computing and mathematics
+    appropriate to the discipline. &#13;
+    (b) An ability to analyze a problem, and identify and define the
+    computing requirements appropriate to its solution. &#13;
+    (c) An ability to design, implement, and evaluate a computer-based
+    system, process, component, or program to meet desired needs. &#13;
+    (i) An ability to use current techniques, skills, and tools necessary
+    for computing practice. &#13;
+    (j) An ability to apply mathematical foundations, algorithmic principles,
+    and computer Science theory in the modeling and design of computer-based systems
+    in a way that demonstrates comprehension of the tradeoffs involved in design choices. &#13;
+    (k) An ability to apply design and development principles in the construction
+    of software systems of varying complexity. &#13;
+	</abet>
+</Course>
+     <Course>
+	<Divide>Labratory</Divide>
+	<Department>Biology</Department>
+	<Prefix>BIOL</Prefix>
+	<Number>1407</Number>
+	<Name>General Biology II</Name>
+	<Description>
+	A continuation of Biology 1406. Topics include evolution and
+	diversity of invertebrate and vertebrate animals; mechanism of support and
+	movement, digestion and nutrition, respiration, circulation homeostasis,
+	hormonal control, nervous control, sexual reproduction, development, behavior
+	and ecology. Credit Restriction: Credit may be received in only one of
+	BIOL 1407 or BIOL 1488.
+	</Description>
+	<Credit-hours>4.000 Credit Hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>3.000</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture, Laboratory</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>None</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>Core Life and Phys Sciences-030, Lab fee - Biology</Course-attributes>
+	<abet>
+		(a) An ability to apply knowledge of computing and mathematics
+		appropriate to the discipline.
+		(b) An ability to analyze a problem, and identify and define the
+		computing requirements appropriate to its solution.
+		(c) An ability to design, implement, and evaluate a computer-based
+		system, process, component, or program to meet desired needs.
+		(i) An ability to use current techniques, skills, and tools necessary
+		for computing practice.
+		(j) An ability to apply mathematical foundations, algorithmic principles,
+		and computer Science theory in the modeling and design of computer-based systems
+		in a way that demonstrates comprehension of the tradeoffs involved in design choices.
+		(k) An ability to apply design and development principles in the construction
+		of software systems of varying complexity.
+	</abet>
+</Course>
+     <Course>
+	<Divide>Other</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>1101</Number>
+	<Name>Introduction to Computer Science</Name>
+	<Description>
+		This course presents an introduction to the breadth of the field of computer
+		science. Topics include an introduction to computer science as a career, overviews of
+		various computer science areas and topics, and foundations of computational problem
+		solving.
+	</Description>
+	<Credit-hours>1.000 Credit hours</Credit-hours>
+	<Lecture-hours>0.000 Lecture hours</Lecture-hours>
+	<Lab-hours>1.000 Lab hours</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lab</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>None</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>Degree Elective, Course fee - Comp Sci, CS Instruction Fee - LU</Course-attributes>
+</Course>
+     <Course>
+	<Divide>Other</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>1105</Number>
+	<Name>Digital Tech in Modern World</Name>
+	<Description>
+		The course will consider the power and limitations of modern day technology, what technology can and cannot do, and
+		personal responsibility related to digital technology. The course emphasizes active learning to enhance critical thinking,
+		critical analysis of information gained from technical sources, and life-long learning competencies. Students use digital
+		technology to support and enhance communication, using current productivity technologies and exploring emerging
+		technologies.
+	</Description>
+	<Credit-hours>1.000 Credit hours</Credit-hours>
+	<Lecture-hours>1.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>None</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions1>None</Restrictions1>
+	<Course-attributes>None</Course-attributes>
+</Course>
+     <Course>
+	<Divide>Computer_Science_Core</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>1170</Number>
+	<Name>Engineer Comp Sci I Lab</Name>
+	<Description>
+		The course includes hands-on instruction and laboratory exercises in developing programs written in a high-level
+		object oriented programming language applying the principles taught in the CSCI 1370 lecture course.
+	</Description>
+	<Credit-hours>1.000 Credit hours</Credit-hours>
+	<Lecture-hours>0.000 Lecture hours</Lecture-hours>
+	<Lab-hours>3.000 Lab hours</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Laboratory</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>CSCI 1370 or CSCI 1378</Co-requisite>
+	<Legacy-number>COSC-1336</Legacy-number>
+	<Cross-listed>CSCI-1170 (A student may receive credit in only one course)</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>
+		Degree Elective,
+		Course fee - Computer Science,
+		CS Instruction Fee - LU
+	</Course-attributes>
+</Course>
+     <Course>
+	<Divide>Computer_Science_Core_HON</Divide>
+	<Department>Computer Science</Department>
+	<Prefix>CSCI</Prefix>
+	<Number>1178</Number>
+	<Name>Engineer Comp Sci I Lab HON</Name>
+	<Description>
+		The course includes hands-on instruction and laboratory exercises in developing programs written in a high-level
+		object oriented programming language applying the principles taught in the CSCI 1378 lecture course. Equivalence course: CSCI 1170.
+	</Description>
+	<Credit-hours>1.000 Credit hours</Credit-hours>
+	<Lecture-hours>0.000 Lecture hours</Lecture-hours>
+	<Lab-hours>1.000 Lab hours</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Laboratory</Schedule-type>
+	<Prerequisite>None</Prerequisite>
+	<Co-requisite>CSCI 1378 (Honors)</Co-requisite>
+	<Legacy-number>None</Legacy-number>
+	<Cross-listed>None</Cross-listed>
+	<Restrictions>None</Restrictions>
+	<Course-attributes>
+		Computer Science,
+		CS Instruction Fee - LU
+	</Course-attributes>
+</Course>
+     <Course>
+    <Category>General_Core_Integrative_HON</Category>
+    <Department>Computer Science</Department>
+    <Prefix>CSCI</Prefix>
+    <Number>1378</Number>
+    <Name>Engineering Comp Sci I HON</Name>
+    <Description>
+        An introduction to computer science and computer engineering. The fundamentals of a high-level programming language will be introduced. Methods of problem solving, techniques of algorithmic development and concepts of procedural and object-oriented programming will be emphasized.. Societal and social issues related to computer science/engineering will be introduced.
+    </Description>
+    	<Credit-hours>3.000 Credit Hours</Credit-hours>
+	<Lecture-hours>3.000 Lecture Hours</Lecture-hours>
+	<Lab-hours>0.000 Lecture hours</Lab-hours>
+    <Level>Undergraduate</Level>
+    <Schedule-type>Lecture</Schedule-type>
+    <Prerequisite>
+      Grade of C or better in MATH 1314 or placement in a higher level Math course,
+      CSCI-1101,
+      Admission to the honors program
+    </Prerequisite>
+    <Co-requisite>CSCI-1178</Co-requisite>
+    <Legacy-number>None</Legacy-number>
+    <Cross-listed>CMPE 1378</Cross-listed>
+	  <Restrictions>None</Restrictions>
+	  <Course-attributes>
+		    CS Instruction Fee -LU
+    </Course-attributes>
+</Course>
+     <Course>
+    <Divide>Other</Divide>
+    <Department>Computer Science</Department>
+    <Prefix>CSCI</Prefix>
+    <Number>1380</Number>
+    <Name>Computer Science I</Name>
+    <Description>
+        An introduction to computer science and computer programming is given, in which the fundamentals of a high-level programming language will be introduced. Methods of problem solving, techniques of algorithmic development and concepts of structured object-oriented programming will be emphasized. For degree programs requiring a three hour course in computer science. Two hours will fulfill Computer Literacy Core requirement.
+    </Description>
+    <Credit-hours>3.000 Credit hours</Credit-hours>
+    <Lecture-hours>3.000 Lecture hours</Lecture-hours>
+    <Lab-hours>0.000 Lab hours</Lab-hours>
+    <Level>Undergraduate</Level>
+    <Schedule-type>Lecture</Schedule-type>
+    <Prerequisite>Concurrent enrollment or credit for MATH 1314 or higher level mathematics course.</Prerequisite>
+    <Co-requisite>None</Co-requisite>
+    <Legacy-number>COSC-1336</Legacy-number>
+    <Cross-listed>None</Cross-listed>
+	<Restrictions1>None</Restrictions1>
+    <Course-attributes>
+	    Core Int/Exp Lrng-090,
+	    Degree Elective,
+	    CS Instruction Fee - LU
+    </Course-attributes>
+</Course>
+     <Course>
     <Divide>Other_HON</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
@@ -219,36 +452,9 @@ This course is designed to give students an opportunity to gain practical experi
 		</Restrictions>
 	<Course-attributes>None</Course-attributes>
 </Course>
+     <?xml-stylesheet type="text/xsl" href="../styles/Course.xsl"?>
      <Course>
-  <Divide>Computer_Science_Core</Divide>
-  <Department>Computer Science</Department>
-  <Prefix>CSCI</Prefix>
-  <Number>3333</Number>
-  <Name>Algorithms and Data Structures</Name>
-  <Description>
-    This course is a continuation of data structures topics covered in CSCI 2380. Content includes theoretical topics in
-    algorithmic efficiency and complexity, along with abstract data types, including graphs, networks, trees, and priority
-    queues. Search topics, including hashing, trees, external search trees (B-trees), and sorting algorithms including
-    external sorting are introduced and compared. Computational complexity topics include the class P and NP, NP-completeness
-    and reducibility, NP-completeness proofs, and NP-complete problems.
-  </Description>
-  <Credit-hours>3.000 Credit hours</Credit-hours>
-  <Lecture-hours>3.000 Lecture hours</Lecture-hours>
-  <Lab-hours>0.000 Lab hours</Lab-hours>
-  <Level>Undergraduate</Level>
-  <Schedule-type>Lecture</Schedule-type>
-   <Prerequisite>CSCI/CMPE 2380 or CSCI/CMPE 2388</Prerequisite>
-   <Co-requisite>Credit/registration for MATH 2346, CSCI 3310, or MATH 2305</Co-requisite>
-   <Legacy-number>None</Legacy-number>
-  <Cross-listed>None</Cross-listed>
-	<Restrictions>None</Restrictions>
-  <Course-attributes>
-    Degree Elective,
-    CS Instruction Fee - HU
-  </Course-attributes>
-</Course>
-     <Course>
-   <Divide>Computer_Science_Core</Divide>
+   <Divide>Computer Science Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3334</Number>
@@ -274,7 +480,7 @@ This course is designed to give students an opportunity to gain practical experi
   </Course-attributes>
 </Course>
      <Course>
-  <Divide>Computer_Science_Core</Divide>
+  <Divide>Computer Science Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3336</Number>
@@ -301,7 +507,7 @@ This course is designed to give students an opportunity to gain practical experi
   </Course-attributes>
 </Course>
      <Course>
-  <Divide>Computer_Science_Core</Divide>
+  <Divide>Computer Science Core</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3340</Number>
@@ -338,7 +544,7 @@ This course is designed to give students an opportunity to gain practical experi
   </Course-attributes>
 </Course>
      <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3341</Number>
@@ -371,7 +577,7 @@ This course is designed to give students an opportunity to gain practical experi
   <Course-attributes>Degree Elective,CS Instruction Fee - HU </Course-attributes>
 </Course>
      <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>3342</Number>
@@ -411,7 +617,7 @@ This course is designed to give students an opportunity to gain practical experi
   </Course-attributes>
 </Course>
      <Course>
-<Divide>Technical_Electives</Divide>
+<Divide>Technical Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>3350</Number>
@@ -435,7 +641,7 @@ This course studies the numerical solutions to various problems occurring in eng
 	<Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
 </Course>
      <Course>
-<Divide>Technical_Electives</Divide>
+<Divide>Technical Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>3370 </Number>
@@ -458,7 +664,7 @@ This is a project based course in which programmers and designers collaborate to
 <Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
 </Course>
      <Course>
-<Divide>Technical_Electives</Divide>
+<Divide>Technical Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4185 </Number>
@@ -479,7 +685,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	  <Course-attributes>Exempt from 3peat processing, CS Instruction Fee - HU</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4301</Number>
@@ -512,7 +718,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4302</Number>
@@ -540,7 +746,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4303</Number>
@@ -564,7 +770,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4310</Number>
@@ -583,7 +789,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	<Course-attributes>CS Instruction Fee - HU, Degree Elective</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4318</Number>
@@ -602,7 +808,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	<Course-attributes>CS Instruction Fee - HU</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4319</Number>
@@ -621,7 +827,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>4321</Number>
@@ -644,7 +850,7 @@ Students will have the opportunity to conduct faculty-sponsored research in the 
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-<Divide>Computer_Science_Core</Divide>
+<Divide>Computer Science Core</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4325</Number>
@@ -672,7 +878,7 @@ including the complexity of optimization and approximation problems.
 <Course-attributes>Degree Elective, CS Instruction Fee - HU</Course-attributes>
 </Course>
      <Course>
-<Divide>Technical_Electives</Divide>
+<Divide>Technical Electives</Divide>
 <Department>Computer Science</Department>
 <Prefix>CSCI</Prefix>
 <Number>4327</Number>
@@ -824,7 +1030,7 @@ Admin -Accelerated online.
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4341</Number>
@@ -849,7 +1055,7 @@ Admin -Accelerated online.
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4343</Number>
@@ -902,7 +1108,7 @@ Admin -Accelerated online.
   </Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4365</Number>
@@ -926,7 +1132,7 @@ Admin -Accelerated online.
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-  <Divide>Technical_Electives</Divide>
+  <Divide>Technical Electives</Divide>
   <Department>Computer Science</Department>
   <Prefix>CSCI</Prefix>
   <Number>4350</Number>
@@ -952,7 +1158,7 @@ Admin -Accelerated online.
  </Course-attributes>
 </Course>
      <Course>
-    <Divide>Technical_Electives</Divide>
+    <Divide>Technical Electives</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4352</Number>
@@ -977,7 +1183,7 @@ Admin -Accelerated online.
   <Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-    <Divide>Technical_Electives</Divide>
+    <Divide>Technical Electives</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4355</Number>
@@ -1002,7 +1208,7 @@ Admin -Accelerated online.
   <Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-    <Divide>Technical_Electives</Divide>
+    <Divide>Technical Electives</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>4360</Number>
@@ -1038,7 +1244,7 @@ Admin -Accelerated online.
   </Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4363</Number>
@@ -1066,7 +1272,7 @@ Admin -Accelerated online.
   </Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4365</Number>
@@ -1090,7 +1296,7 @@ Admin -Accelerated online.
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4370</Number>
@@ -1116,7 +1322,7 @@ Admin -Accelerated online.
 	<Course-attributes>None</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4381</Number>
@@ -1147,7 +1353,7 @@ Admin -Accelerated online.
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Technical_Electives</Divide>
+	<Divide>Technical Electives</Divide>
 	<Department>Computer Science</Department>
 	<Prefix>CSCI</Prefix>
 	<Number>4382</Number>
@@ -1327,7 +1533,7 @@ Admin -Accelerated online.
 	</Course-attributes>
 </Course>
      <Course>
-	<Divide>Mathematics_and_Engineering</Divide>
+	<Divide>Mathematics and Engineering</Divide>
 	<Department>Engineering</Department>
 	<Prefix>ELEE</Prefix>
 	<Number>3340</Number>
