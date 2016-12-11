@@ -25,22 +25,25 @@ public class HTMLConverter {
     public static void main(String[] args) throws DocumentException, IOException {
         // TODO code application logic here
 //        
-//        XML2HTML.convert2Html("XML/Courses/csci-1170/csci-1170.xml", "STYLES/course.xsl", "TEMP/output.html");
+//        XML2HTML.convert2Html("XML/Courses/biol-1406.xml", "STYLES/course.xsl", "TEMP/output.html");
         
 //        XML2HTML.convertDirectory2Html("XML/Courses", "STYLES/course.xsl", "TEMP/");
         
-        List<String> files = new ArrayList<>();
+//        List<String> files = new ArrayList<>();
+//        
+//        files.add("csci-1101.pdf");
+//        files.add("csci-1105.pdf");
+//        files.add("csci-1170.pdf");
         
-        files.add("csci-1101.pdf");
-        files.add("csci-1105.pdf");
-        files.add("csci-1170.pdf");
         
-        
-        PDFConverter.convert2Pdf("csci-1380.xml", "XML2PDFTEST.pdf");
+//        PDFConverter.convert2Pdf("csci-1380.xml", "XML2PDFTEST.pdf");
 
 //        PDFConverter.combinePDFFiles(files, "CombinedPDFFiles.pdf");
 
-//       PDFConverter.combinePDFFiles(currentNode);
+//        PDFConverter.combinePDFFiles(currentNode);
+
+
+          XMLMerger.mergeFilesFromDirectory("XML/Courses", "POS", "STYLES/CMPE-POS.xsl", "CMPE-POS.xml");
         
     }
     
