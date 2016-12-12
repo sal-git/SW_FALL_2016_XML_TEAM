@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+	<Divide>Chemistry</Divide>
+	<Department>Chemistry Department</Department>
+	<Prefix>CHEM</Prefix>
+	<Number>1307</Number>
+	<Name>Chemistry for Engineers</Name>
+	<Description>
+		This course will cover stoichiometry, structure, bonding, thermodynamics, and kinetics plus a brief survey of organic chemistry, biochemistry, and analytical chemistry.
+	</Description>
+	<Credit-hours>3.000 Credit hours </Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite><item>MATH-1314</item></Prerequisite>
+	<Prerequisite><item>MATH-1315</item></Prerequisite>
+	<Prerequisite><item>MATH-2412</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
+	<Legacy-number></Legacy-number>
+	<Cross-listed></Cross-listed>
+	<Restrictions1><item>May not be enrolled in:
+							dnu-MED
+							MPA in Public Administration
+							Bus. Admin -Accelerated online</item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Course-attributes>
+		<item>Core Life</item>
+		<item>Phys Sciences</item>
+	</Course-attributes>
+</Course>

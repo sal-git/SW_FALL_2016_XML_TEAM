@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Course>
+	<Divide>Chemistry</Divide>
+	<Department>Chemistry Department</Department>
+	<Prefix>CHEM</Prefix>
+	<Number>1307</Number>
+	<Name>General Chemistry I</Name>
+	<Description>
+		Fundamentals of atomic structure, electronic structure and periodic table, nomenclature, the stoichiometry reactions, gas laws, thermochemistry, chemical bonding, and structure and geometry of molecules.
+	</Description>
+	<Credit-hours>3.000 Credit hours </Credit-hours>
+	<Lecture-hours>3.000 Lecture hours</Lecture-hours>
+	<Lab-hours>0.000 Lab hours</Lab-hours>
+	<Level>Undergraduate</Level>
+	<Schedule-type>Lecture</Schedule-type>
+	<Prerequisite><item>MATH-1314</item></Prerequisite>
+	<Prerequisite><item>MATH-1414</item></Prerequisite>
+	<Prerequisite><item>MATH-1342</item></Prerequisite>
+	<Prerequisite><item>MATH-1343</item></Prerequisite>
+	<Prerequisite><item>MATH-1388</item></Prerequisite>
+	<Prerequisite><item>MATH-2412</item></Prerequisite>
+	<Prerequisite><item>MATH-2413</item></Prerequisite>
+	<Co-requisite><item>None</item></Co-requisite>
+	<Legacy-number></Legacy-number>
+	<Cross-listed></Cross-listed>
+	<Restrictions1><item></item></Restrictions1>
+	<Restrictions2><item>None</item></Restrictions2>
+	<Course-attributes>
+		<item>Core Life</item>
+		<item>Phys Sciences</item>
+	</Course-attributes>
+</Course>
