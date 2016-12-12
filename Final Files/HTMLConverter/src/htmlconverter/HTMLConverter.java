@@ -29,7 +29,7 @@ public class HTMLConverter {
         
 
 //        Converts entire directory and outputs each file into another (input directory, input xsl file, output directory)
-//        XML2HTML.convertDirectory2Html("XML/Courses", "STYLES/course.xsl", "TEMP/");
+        XML2HTML.convertDirectory2Html("XML/Courses", "STYLES/course.xsl", "TEMP/");
 
 
 //        List<String> files = new ArrayList<>();
@@ -46,8 +46,8 @@ public class HTMLConverter {
 //        PDFConverter.combinePDFFiles(files, "CombinedPDFFiles.pdf");
 
 //        Merge files together
-          XMLMerger.mergeFilesFromDirectory("XML/Courses", "POS",  "CMPE-POS.xml");
-          XML2HTML.convert2Html("CMPE-POS.xml", "STYLES/CMPE-POS.xsl", "ComputerEngineeringPOS.html");
+//          XMLMerger.mergeFilesFromDirectory("XML/Courses", "POS",  "CMPE-POS.xml");
+//          XML2HTML.convert2Html("CMPE-POS.xml", "STYLES/CMPE-POS.xsl", "ComputerEngineeringPOS.html");
         
     }
     
