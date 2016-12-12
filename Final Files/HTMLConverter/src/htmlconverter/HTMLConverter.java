@@ -47,7 +47,7 @@ public class HTMLConverter {
 
 //        Merge files together
           XMLMerger.mergeFilesFromDirectory("XML/Courses", "POS",  "CMPE-POS.xml");
-          XML2HTML.convert2Html("CMPE-POS.xml", "STYLES/CSCI-POS.xsl", "ComputerSciencePOS.html");
+          XML2HTML.convert2Html("CMPE-POS.xml", "STYLES/CMPE-POS.xsl", "ComputerEngineeringPOS.html");
         
     }
     

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Course>
-    <Divide>Other_HON</Divide>
+    <Divide>Other HON</Divide>
     <Department>Computer Science</Department>
     <Prefix>CSCI</Prefix>
     <Number>1387</Number>
@@ -28,4 +28,8 @@
 	    Degree Elective,
 	    CS Instruction Fee - LU
     </Course-attributes>
+    <ABET-outcomes>
+  	</ABET-outcomes>
+  	<Learning-outcomes>
+  	</Learning-outcomes>
 </Course>
