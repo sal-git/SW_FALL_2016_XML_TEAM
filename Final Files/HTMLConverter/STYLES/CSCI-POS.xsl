@@ -159,7 +159,7 @@
 										<xsl:for-each select="POS/Course">
 											<ul style="list-style-type:none">
 												<li>
-													<xsl:if test="Divide[text()='Computer Science Core']">
+													<xsl:if test="Divide[text()='Programming Language']">
 														<xsl:variable name="link"><xsl:value-of select="Prefix"/><xsl:text>-</xsl:text><xsl:value-of select="Number"/></xsl:variable>
 														<a href="XML/COURSES/{$link}/{$link}.html">
 															<xsl:value-of select="Prefix"/><xsl:text> </xsl:text><xsl:value-of select="Number"/><xsl:text> </xsl:text><xsl:value-of select="Name"/>
