@@ -2,7 +2,7 @@
 <Course>
 <Divide>Computer Engineering Core</Divide>
 <Department>Computer Science</Department>
-<Prefix>CSCI</Prefix>
+<Prefix>CMPE</Prefix>
 <Number>2380</Number>
 <Name>Computer Science II</Name>
 <Description> A second programming course includes problem solving by structured design; provides an introduction to elementary data structures, including linked lists, stacks, queues, trees and graphs, and advanced programming techniques, including recursion, sorting and searching.</Description>
